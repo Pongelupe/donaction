@@ -11,8 +11,8 @@ function userInput () {
 		"userLocation": userLocation,
 		"userBlood": userBlood
 	};
-	
 	var sendData = JSON.stringify(userData);
+	
 	$.ajax({
 	    url:"https://api.myjson.com/bins",
 	    type:"POST",
@@ -20,13 +20,20 @@ function userInput () {
 	    contentType:"application/json; charset=utf-8",
 	    dataType:"json",
 	    success: function(data, textStatus, jqXHR){
-	    	swal({
-			  title: "Cadastro Realizado",
-			  type: "success",
-			  confirmButtonText: "Continuar"
-			});
 	    	var userUri = data.uri;
-	    	breakUri(userUri)
+	    	userId = breakUri(userUri);
+	    	swal({
+			  html: true,
+			  title: "Senha de Acesso: " + userId,
+			  text: "Guarde essa senha para entrar na sua sessão",
+			  type: "success",
+			  confirmButtonText: "Continuar",
+			  closeOnConfirm: false,
+			},    	  
+			  function() {
+			  	location.href = "../index.php"
+			 }
+			)
 	    }
 	});   
 }
@@ -34,4 +41,5 @@ function userInput () {
 function breakUri (userUri) {
 	var splittedURL = userUri.split(/\/+/g);
 	var userId = splittedURL[splittedURL.length-1];
+	return userId
 }

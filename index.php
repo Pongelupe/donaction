@@ -23,6 +23,8 @@
 
     <!-- Theme CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/modalLogin.css" rel="stylesheet">
+    <link href="vendor/sweetalert/css/sweetalert.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -66,6 +68,11 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+
+                    <li>
+                        <!-- Include of the modal -->
+                        <?php include 'pages/modalLogin.php'; ?> 
                     </li>
                 </ul>
             </div>
@@ -660,10 +667,11 @@
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
+    <script src="js/userLogin.js"></script>
+    <script src="vendor/sweetalert/js/sweetalert.min.js"></script>
 
 </body>
 
