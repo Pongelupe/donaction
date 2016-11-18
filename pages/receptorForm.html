@@ -9,8 +9,20 @@
         <meta name="author" content="">
         <title>Página do Receptor</title>
 
-        <!-- Form's CSS -->
+        <!-- Form's CSS --> 
+        <link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="../css/receptorForm.css">
+        <link rel="stylesheet" type="text/css" href="../vendor/sweetalert/css/sweetalert.css">
+
+        <!-- jQuery -->
+        <script src="../vendor/jquery/jquery.min.js"></script>
+
+        <!-- Main's JavaScript -->
+        <script src="../js/userData.js"></script>
+
+        <!-- SweetAlert's JavaScript -->
+        <script src="../vendor/sweetalert/js/sweetalert.min.js"></script>
+
     </head>
     <body>
         <header class="ccheader">
@@ -18,29 +30,29 @@
         </header>
         <div class="wrapper">
             <form method="post" action="" class="ccform">
-            <div class="ccfield-prepend">
-                <span class="ccform-addon"><i class="fa fa-user fa-2x"></i></span>
-                <input class="ccformfield" type="text" placeholder="Full Name" required>
-            </div>
-            <div class="ccfield-prepend">
-                <span class="ccform-addon"><i class="fa fa-envelope fa-2x"></i></span>
-                <input class="ccformfield" type="text" placeholder="Email" required>
-            </div>
-            <div class="ccfield-prepend">
-                <span class="ccform-addon"><i class="fa fa-mobile-phone fa-2x"></i></span>
-                <input class="ccformfield" type="text" placeholder="Phone">
-            </div>
-             <div class="ccfield-prepend">
-                <span class="ccform-addon"><i class="fa fa-info fa-2x"></i></span>
-                <input class="ccformfield" type="text" placeholder="Subject" required>
-            </div>
-            <div class="ccfield-prepend">
-                <span class="ccform-addon"><i class="fa fa-comment fa-2x"></i></span>
-                <textarea class="ccformfield" name="comments" rows="8" placeholder="Message" required></textarea>
-            </div>
-            <div class="ccfield-prepend">
-                <input class="ccbtn" type="submit" value="Submit">
-            </div>
+                <div class="ccfield-prepend">
+                    <span class="ccform-addon"><i class="fa fa-user fa-2x"></i></span>
+                    <input class="ccformfield" type="text" id="name" placeholder="Nome Completo" required>
+                </div>
+                <div class="ccfield-prepend">
+                    <span class="ccform-addon"><i class="fa fa-envelope fa-2x"></i></span>
+                    <input class="ccformfield" type="text" id="email" placeholder="Email" required>
+                </div>
+                <div class="ccfield-prepend">
+                    <span class="ccform-addon"><i class="fa fa-mobile-phone fa-2x"></i></span>
+                    <input class="ccformfield" type="text" id="phone" placeholder="Telefone">
+                </div>
+                <div class="ccfield-prepend">
+                    <span class="ccform-addon"><i class="fa fa-map-marker fa-2x"></i></span>
+                    <input class="ccformfield" type="text" id="location" placeholder="Cidade" required>
+                </div>
+                <div class="ccfield-prepend">
+                    <span class="ccform-addon"><i class="fa fa-tint fa-2x"></i></span>
+                    <input class="ccformfield" type="text" id="blood" placeholder="Tipo Sanguíneo" required>
+                </div>
+                <div class="ccfield-prepend">
+                    <input class="ccbtn" value="Enviar" onclick="userInput();">
+                </div>
             </form>
         </div>
         <div class="credit">
