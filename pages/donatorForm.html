@@ -1,0 +1,136 @@
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Página do Doador</title>
+
+        <!-- Form's CSS --> 
+        <link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/receptorForm.css">
+        <link rel="stylesheet" type="text/css" href="../vendor/sweetalert/css/sweetalert.css">
+
+        <!-- jQuery -->
+        <script src="../vendor/jquery/jquery.min.js"></script>
+
+        <!-- Main's JavaScript -->
+        <script src="../js/doador.js"></script>
+
+        <!-- SweetAlert's JavaScript -->
+        <script src="../vendor/sweetalert/js/sweetalert.min.js"></script>
+
+    </head>
+    <body>
+        <header class="ccheader">
+            <h1>Preencha com o seus dados</h1> 
+        </header>
+        <div class="wrapper">
+            <form class="ccform">
+
+                <div class="ccfield-prepend">
+                    <span class="ccform-addon"><i class="fa fa-user fa-2x"></i></span>
+                    <input class="ccformfield" type="text" id="name" placeholder="Nome Completo" required>
+                </div>
+
+                <div class="ccfield-prepend">
+                    <span class="ccform-addon"><i class="fa fa-envelope fa-2x"></i></span>
+                    <input class="ccformfield" type="text" id="email" placeholder="Email" required>
+                </div>
+
+                <div class="ccfield-prepend">
+                    <span class="ccform-addon"><i class="fa fa-mobile-phone fa-2x"></i></span>
+                    <input class="ccformfield" type="text" id="phone" placeholder="Telefone">
+                </div>
+
+                <div class="ccfield-prepend">
+                    <span class="ccform-addon"><i class="fa fa-map-marker fa-2x"></i></span>
+                    <input class="ccformfield" type="text" id="location" placeholder="Cidade" required>
+                </div>
+
+                <div class="ccfield-prepend">
+                    <span class="ccform-addon"><i class="fa fa-tint fa-2x"></i></span>
+                    <input class="ccformfield" type="text" id="bloody" placeholder="Tipo Sanguíneo" required>
+                </div>
+                            <div class="container">  
+                <div class="ccfield-prepend">
+                    <label>Questionário</label>
+                    <table class="table table-condensed">
+                        <thead>
+                            <tr>
+                                <th> </th>
+                                <th>Sim</th>
+                                <th>Não</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Pesa pelo menos 50kg?</td>
+                                <div class="checkbox">
+                                    <td>      
+                                        <input type="checkbox" onclick="checkbox_config('apto')"/>
+                                    </td>
+                                </div>
+                                    <div class="checkbox">
+                                    <td>      
+                                        <input type="checkbox" onclick="checkbox_config('nao_apto')"/>
+                                    </td>
+                                </div>
+                                </tr>
+                                <tr>
+                                <td>Já teve malária?</td>
+                                <div class="checkbox">
+                                    <td>      
+                                        <input type="checkbox" onclick="checkbox_config('nao_apto')"/>
+                                    </td>
+                                </div>
+                                    <div class="checkbox">
+                                    <td>      
+                                        <input type="checkbox" onclick="checkbox_config('apto')"/>
+                                    </td>
+                                </div>
+                            </tr>
+                            <tr>
+                                <td>Utiliza drogas injetáveis?</td>
+                                <div class="checkbox">
+                                    <td>      
+                                        <input type="checkbox" onclick="checkbox_config('nao_apto')"/>
+                                    </td>
+                                </div>
+                                    <div class="checkbox">
+                                    <td>      
+                                        <input type="checkbox" onclick="checkbox_config('apto')"/>
+                                    </td>
+                                </div>
+                            </tr>
+                            <tr>
+                                <td>Fez tatuagem nos útimos 6 meses?</td>
+                                <div class="checkbox">
+                                    <td>      
+                                        <input type="checkbox" onclick="checkbox_config('nao_apto')"/>
+                                    </td>
+                                </div>
+                                    <div class="checkbox">
+                                    <td>      
+                                        <input type="checkbox" onclick="checkbox_config('apto')"/>
+                                    </td>
+                                </div>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+                <div class="ccfield-prepend">
+                    <button class="ccbtn" onclick="createUser();">Enviar</button>
+                </div>
+            </form>
+        </div>
+        <div class="credit">
+        <p>The HTML5 Contact Form is simple and becautiful looking with awesome features. This form is created using CSS3 and HTML5. It allow you to customize easily and implementions so easy. You can simply copy and paste the HTML and CSS code to add into your website. This HTML5 form have all required fields eg name, email, phone and message etc. You can read more about <a href="http://codeconvey.com/creating-simple-html5-contact-form/" target="_blank">HTML5 Contact Form</a> here and read about implemention steps. We have explain a complete proces of implementions.</p>
+        </div>
+    </body>
+</html>
