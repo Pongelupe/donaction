@@ -10,3 +10,11 @@ header {
     text-align: center;
     color: #fff;
 }
+
+.loginmodal-container {
+    margin-top: 24%;
+}
+
+.timeline > li .timeline-image {
+    background-color: #444444;
+}

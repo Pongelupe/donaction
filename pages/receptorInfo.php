@@ -32,7 +32,7 @@
       </div> 
 
       <div class="row">      
-           <div class="col-md-8 col-sm-8 col-lg-8 col-md-offset-3 col-sm-offset-3 col-lg-offset-3">
+           <div class="col-md-12 col-sm-12 col-lg-12 col-md-offset-2 col-sm-offset-2 col-lg-offset-2">
               <div id="userName" class="userName">Olá, Usuário</div>  
            </div>            
       </div>

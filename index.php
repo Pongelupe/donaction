@@ -20,9 +20,10 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/agency.css" rel="stylesheet">
 
     <!-- Modal CSS -->
     <link href="css/modalLogin.css" rel="stylesheet">
@@ -66,10 +67,7 @@
                     <li>
                         <a class="page-scroll" href="#team">Time</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contato</a>
-                    </li>
-
+                   
                     <li>
                         <!-- Include of the modal -->
                         <?php include 'pages/modalLogin.php'; ?> 
@@ -123,8 +121,8 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-hospital-o fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Viver</h4>
-                    <p class="text-muted">Pronto! Agora só falta ir no posto de coleta combinado para trabalhar os detalhes, marcar a coleta ou a transfusão e levar uma vida saudável.</br>Evitando uma boa burocracia!</p>
+                    <h4 class="service-heading">Menos Burocracia</h4>
+                    <p class="text-muted">Pronto! Agora só falta ir no posto de coleta combinado para trabalhar os detalhes, marcar a coleta ou a transfusão e levar uma vida saudável.</p>
                 </div>
             </div>
         </div>
@@ -147,7 +145,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/hospitals/vera_cruz_preview.jpg" class="img-responsive" alt="Inverno Cruz">
+                        <img src="img/newHospitals/hospital1.jpg" class="img-responsive" alt="Inverno Cruz">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Inverno Cruz</h4>
@@ -161,7 +159,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/hospitals/felicio_vermelho_preview.jpg" class="img-responsive" alt="Felício Vermelho">
+                        <img src="img/newHospitals/hospital2.jpg" class="img-responsive" alt="Felício Vermelho">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Felício Vermelho</h4>
@@ -175,7 +173,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/hospitals/salvação_de_jesus_preview.jpg"  class="img-responsive" alt="Salvação de Jesus">
+                        <img src="img/newHospitals/hospital3.jpg"  class="img-responsive" alt="Salvação de Jesus">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Salvação de Jesus</h4>
@@ -189,7 +187,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/hospitals/serio_dinamarques_preview.jpg" class="img-responsive" alt="Serio Dinamarquês">
+                        <img src="img/newHospitals/hospital4.jpg" class="img-responsive" alt="Serio Dinamarquês">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Serio Dinamarquês</h4>
@@ -203,11 +201,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/hospitals/tampa_preview.jpg" class="img-responsive" alt="JC's City Hospital">
+                        <img src="img/newHospitals/hospital5.jpg" class="img-responsive" alt="JC's City Hospital">
                     </a>
                     <div class="portfolio-caption">
                         <h4>JC's City Hospital</h4>
-                        <p class="text-muted">Jacksonville Capital,US</p>
+                        <p class="text-muted">Jacksonville Capital, EUA</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -217,11 +215,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/hospitals/PokeCenter_preview.png" class="img-responsive" alt="Viridiano's Pokecenter">
+                        <img src="img/newHospitals/hospital6.jpg" class="img-responsive" alt="Viridiano's Pokecenter">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Viridiano's Pokecenter</h4>
-                        <p class="text-muted">Viridiano,Japão</p>
+                        <p class="text-muted">Viridiano, Japão</p>
                     </div>
                 </div>
             </div>
@@ -234,7 +232,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">História</h2>
-                    <h3 class="section-subheading text-muted">Da Engenharia de Software até Bloody PUT</h3>
+                    <h3 class="section-subheading text-muted"></h3>
                     <h2 class="section-subheading">2016</h2>
                     </br>
                 </div>
@@ -244,29 +242,29 @@
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/eng_software.png" alt="Engenharia de Software">
+                                <img class="img-circle img-responsive" src="img/about/stackOverflow.png" alt="Engenharia de Software">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>Agosto</h4>
-                                    <h4 class="subheading">O início</h4>
+                                    <h5 class="subheading">Engenharia de Software</h5>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Em agosto de 2016 começamos a graduação em Engenharia de Software na Puc Minas.</p>
+                                    <p class="text-muted">A jornada começa na graduação da PUC Minas.</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/s2b-1.png" alt="S2B">
+                                <img class="img-circle img-responsive" src="img/about/studentBussiness.png" alt="S2B">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>27 de Outubro</h4>
-                                    <h4 class="subheading">Palestra incial do S2B</h4>
+                                    <h4>Outubro</h4>
+                                    <h5 class="subheading">Introdução ao S2B</h5>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">No dia 27 de outubro houve a palestra inicial do programa S2B. Além disso, ocorreu a primeira prova.</p>
+                                    <p class="text-muted">Continua em 27 de outubro com a apresentação do programa <strong>Student to Bussiness</strong> e suas oportunidades.</p>
                                 </div>
                             </div>
                         </li>
@@ -276,25 +274,25 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>De 31 de outubro até 11 de novembro</h4>
-                                    <h4 class="subheading">Trilha de desenvolvimento Web</h4>
+                                    <h4>Novembro</h4>
+                                    <h5 class="subheading">Trilha de desenvolvimento Web</h5>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Trilha de desenvolvimento web, utilizando HTML 5, CSS e JS, no campus do Coração Eucarístico da PUC Minas. Ótimas aulas ministradas pelo Guilherme Rodrigues.</p>
+                                    <p class="text-muted">Foram ministradas aulas de HTML 5, CSS e JavaScript pelo professor Guilherme Rodrigues.</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/bloody_put.jpg" alt="Bloody PUT">
+                                <img class="img-circle img-responsive" src="img/about/bloody_put1.png" alt="Bloody PUT">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>De 14 de novembro até 26 de novembro</h4>
-                                    <h4 class="subheading">Desenvolvimento do projeto</h4>
+                                    <h4>14/novembro à 26/novembro</h4>
+                                    <h5 class="subheading">Desenvolvimento do projeto</h5>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted"> O projeto Bloody PUT foi desenvolvido utilizando da API "myJson" como sendo um bando de dados da aplicação, assim, utilizando o Java Script como ferramenta de back-end. E utilizando HTML 5, CSS e Java Script no front-end, com o auxilio de 2 frameworks, Bootstrap e Sweet Alert.</p>
+                                    <p class="text-muted"> O projeto Bloody PUT foi desenvolvido utilizando a API do <strong>Myjson</strong>, HTML 5, CSS e Java Script em conjunto com os frameworks Bootstrap e Sweet Alert.</p>
                                 </div>
                             </div>
                         </li>
@@ -325,7 +323,7 @@
                     <div class="team-member">
                         <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
                         <h4>Eric Ribeiro</h4>
-                        <p class="text-muted">Desenvolvimento</p>
+                        <p class="text-muted">Desenvolvedor</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -383,52 +381,7 @@
         </div>
     </aside>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Tire sua dúvida!</h2>
-                    <h3 class="section-subheading text-muted">Não existe pergunta boba!</br>Doar sangue é assunto sério.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Seu nome *" id="name" required data-validation-required-message="Seu nome">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Seu E-mail *" id="email" required data-validation-required-message="Seu endereço de E-mail">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Seu telefone *" id="phone" required data-validation-required-message="Seu número">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Enviar</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
+    <footer class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -476,10 +429,8 @@
                                 <!-- Project Details Go Here -->
                                 <h2>Inverno Cruz</h2>
                                 <p class="item-intro text-muted">Belo Horizonte</p>
-                                <img class="img-responsive img-centered" src="img/hospitals/vera_cruz.jpg" alt="Hospital Inverno Cruz">
+                                <img class="img-responsive img-centered img-rounded" src="img/newHospitals/hospital1.jpg" alt="Hospital Inverno Cruz" width="40%" height="40%">
                                 <p>O hospital Inverno Cruz vem desde 1998 salvando vidas em Belo Horizonte. Em 2007 recebeu o prêmio JS devido à tremenda dedicação aos pacientes.</br> Em janeiro de 2013, foi  pioneiro na implementação de novas tecnologias apoiando a Bloody PUT.</p>
-                                <!-- <p>
-                                    <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p> -->
                                 <ul class="list-inline">
                                     <li>Desde Janeiro 2013</li>
                                     <li><a href="#">Sobre o hospital</a></li>
@@ -509,7 +460,7 @@
                             <div class="modal-body">
                                 <h2>Felício Vermelho</h2>
                                 <p class="item-intro text-muted">Belo Horizonte</p>
-                                <img class="img-responsive img-centered" src="img/hospitals/felicio_vermelho.jpg" alt="Hospital Félicio Vermelho" width="70%" height="70%">
+                                <img class="img-responsive img-centered img-rounded" src="img/newHospitals/hospital2.jpg" alt="Hospital Félicio Vermelho" width="40%" height="40%">
                                 <p> O hospital Félicio Vermelho em Belo Horizonte vem atendendo pacientes desde 1927,sendo o hospital brasileiro mais tradicional em parceria com a Bloody PUT.Parceria que se vem desde o princípio do ano de 2016.</p>
                                 <ul class="list-inline">
                                     <li>Desde Março 2016</li>
@@ -541,7 +492,7 @@
                                 <!-- Project Details Go Here -->
                                 <h2>Salvação de Jesus</h2>
                                 <p class="item-intro text-muted">São Paulo</p>
-                                <img class="img-responsive img-centered" src="img/hospitals/salvação_de_jesus.jpg" alt="Hospital Salvação de Jesus">
+                                <img class="img-responsive img-centered img-rounded" src="img/newHospitals/hospital3.jpg" alt="Hospital Salvação de Jesus" width="40%" height="40%">
                                 <p> O hospital Salvação de Jesus vem atendendo pacientes desde 1985, a instituição não cobra pelos serviços e é sustentada pela Igreja. Salvação de Jesus foi o primeiro parceiro da Bloody PUT fora do San Pedro Valley, é um forte laço desde outubro de 2015</p>
                                 <ul class="list-inline">
                                     <li>Desde Outubro de 2015</li>
@@ -573,7 +524,7 @@
                                 <!-- Project Details Go Here -->
                                 <h2>Serio Dinamarquês</h2>
                                 <p class="item-intro text-muted">São Paulo</p>
-                                <img class="img-responsive img-centered" src="img/hospitals/serio_dinamarques.jpg" alt="Hospital Serio Dinamarquês" width="60%" height="60%">
+                                <img class="img-responsive img-centered img-rounded" src="img/newHospitals/hospital4.jpg" alt="Hospital Serio Dinamarquês" width="40%" height="40%">
                                 <p> O hospital Serio Dinamarquês carrega a medicina dinamarquesa e sueca nas terras de São Paulo, desde 1945. O hospital é especializado em tratar de ferimentos causado por lâminas ou perfurações. O hospital detém o maior número de pacientes que necessitam de transfusão no Estado. Está em parceira com a Bloody Put desde o natal de 2015.</p>
                                 <ul class="list-inline">
                                     <li>Desde Dezembro de 2015</li>
@@ -604,8 +555,8 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>JC's City Hospital</h2>
-                                <p class="item-intro text-muted">Jacksonville Capital,US</p>
-                                <img class="img-responsive img-centered" src="img/hospitals/tampa.jpg" width="80%" height="80%" alt="JC's City Hospital">
+                                <p class="item-intro text-muted">Jacksonville Capital, EUA</p>
+                                <img class="img-responsive img-centered img-rounded" src="img/newHospitals/hospital5.jpg"" width="40%" height="40%" alt="JC's City Hospital">
                                 <p> JC's City Hospital em North Savanna atende as crianças carentes da região interiorana do Missouri desde 2001.É mantida por filantropia de grupos como YMCA e C#, e atende em média 200 crianças por dia. Essa forte parceria foi a primeira no âmbito internacional para a Bloody PUT, em junho de 2016.</p>
                                 <ul class="list-inline">
                                     <li>Desde Junho de 2016</li>
@@ -637,7 +588,7 @@
                                 <!-- Project Details Go Here -->
                                 <h2>Viridiano's Pokecenter</h2>
                                 <p class="item-intro text-muted">Viridiano, Japão</p>
-                                <img class="img-responsive img-centered" src="img/hospitals/PokeCenter.png" alt="PokeCenter" height="60%" width="60%">
+                                <img class="img-responsive img-centered img-rounded" src="img/newHospitals/hospital6.jpg" alt="PokeCenter" height="40%" width="40%">
                                 <p> Pokecenter de Viridiano é o mais forte hospital da região, atende frequentemente locais e estrangeiros devido os ataques frequentes de animais perigosos na Floresta de Viridiano. É a primeira parceria da Blood PUT no oriente, desde setembro de 2016.</p>
                                 <ul class="list-inline">
                                     <li>Desde Setembro de 2016</li>
