@@ -14,8 +14,8 @@ function createUser() {
 		"status": questionario
 	};
 	var sendData = JSON.stringify(data);
-	var myArray=[data.name,data.email,data.phone,data.location,data.status,data.blood];
-	var ok =validator(myArray);
+	/*var myArray=[data.name,data.email,data.phone,data.location,data.status];
+	var ok =validator(myArray);*/
 
 	if (ok==true) {
 	$.ajax({

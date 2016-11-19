@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Doe Sangue</title>
+    <title>Bloody PUT</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -58,7 +58,7 @@
                         <a class="page-scroll" href="#services">Serviços</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Exemplos</a>
+                        <a class="page-scroll" href="#portfolio">Parceiros</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">História</a>
@@ -97,7 +97,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Como Funciona</h2>
+                    <h2 class="section-heading">Como você pode ajudar</h2>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
@@ -115,7 +115,7 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-bar-chart fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Algoritmos</h4>
+                    <h4 class="service-heading">Onde há urgência?</h4>
                     <p class="text-muted">Depois nós vamos usar nossos poderes matemágicos para encontrar pessoas com o mesmo tipo sanguíneo perto de você e te avisaremos.</p>
                 </div>
                 <div class="col-md-4">
@@ -124,7 +124,7 @@
                         <i class="fa fa-hospital-o fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Viver</h4>
-                    <p class="text-muted">Pronto! Agora só falta ir no posto de coleta combinado para trabalhar os detalhes, marcar a coleta ou a transfusão e levar uma vida saudável.</p>
+                    <p class="text-muted">Pronto! Agora só falta ir no posto de coleta combinado para trabalhar os detalhes, marcar a coleta ou a transfusão e levar uma vida saudável.</br>Evitando uma boa burocracia!</p>
                 </div>
             </div>
         </div>
@@ -135,8 +135,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Exemplos</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Hospitais Parceiros</h2>
+                    <h3 class="section-subheading text-muted">Esses hospitais abriram as portas para a Bloody PUT!</h3>
                 </div>
             </div>
             <div class="row">
@@ -147,11 +147,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <img src="img/hospitals/vera_cruz_preview.jpg" class="img-responsive" alt="Inverno Cruz">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Round Icons</h4>
-                        <p class="text-muted">Graphic Design</p>
+                        <h4>Inverno Cruz</h4>
+                        <p class="text-muted">Belo Horizonte</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -161,11 +161,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                        <img src="img/hospitals/felicio_vermelho_preview.jpg" class="img-responsive" alt="Felício Vermelho">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Felício Vermelho</h4>
+                        <p class="text-muted">Belo Horizonte</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -175,11 +175,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+                        <img src="img/hospitals/salvação_de_jesus_preview.jpg"  class="img-responsive" alt="Salvação de Jesus">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Salvação de Jesus</h4>
+                        <p class="text-muted">São Paulo</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -189,11 +189,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
+                        <img src="img/hospitals/serio_dinamarques_preview.jpg" class="img-responsive" alt="Serio Dinamarquês">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Golden</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Serio Dinamarquês</h4>
+                        <p class="text-muted">São Paulo</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -203,11 +203,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
+                        <img src="img/hospitals/tampa_preview.jpg" class="img-responsive" alt="JC's City Hospital">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Escape</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>JC's City Hospital</h4>
+                        <p class="text-muted">Jacksonville Capital,US</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -217,11 +217,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
+                        <img src="img/hospitals/PokeCenter_preview.png" class="img-responsive" alt="Viridiano's Pokecenter">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Dreams</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Viridiano's Pokecenter</h4>
+                        <p class="text-muted">Viridiano,Japão</p>
                     </div>
                 </div>
             </div>
@@ -234,7 +234,9 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">História</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Da Engenharia de Software até Bloody PUT</h3>
+                    <h2 class="section-subheading">2016</h2>
+                    </br>
                 </div>
             </div>
             <div class="row">
@@ -242,65 +244,65 @@
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/eng_software.png" alt="Engenharia de Software">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                    <h4>Agosto</h4>
+                                    <h4 class="subheading">O início</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">Em agosto de 2016 começamos a graduação em Engenharia de Software na Puc Minas.</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/s2b-1.png" alt="S2B">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
+                                    <h4>27 de Outubro</h4>
+                                    <h4 class="subheading">Palestra incial do S2B</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">No dia 27 de outubro houve a palestra inicial do programa S2B. Além disso, ocorreu a primeira prova.</p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/html5.png" alt="Desenvolvimento Web">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
+                                    <h4>De 31 de outubro até 11 de novembro</h4>
+                                    <h4 class="subheading">Trilha de desenvolvimento Web</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">Trilha de desenvolvimento web, utilizando HTML 5, CSS e JS, no campus do Coração Eucarístico da PUC Minas. Ótimas aulas ministradas pelo Guilherme Rodrigues.</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/bloody_put.jpg" alt="Bloody PUT">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                    <h4>De 14 de novembro até 26 de novembro</h4>
+                                    <h4 class="subheading">Desenvolvimento do projeto</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted"> O projeto Bloody PUT foi desenvolvido utilizando da API "myJson" como sendo um bando de dados da aplicação, assim, utilizando o Java Script como ferramenta de back-end. E utilizando HTML 5, CSS e Java Script no front-end, com o auxilio de 2 frameworks, Bootstrap e Sweet Alert.</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
+                                <h4>Agora
+                                    <br>é com
+                                    <br>vocês...</h4>
                             </div>
                         </li>
                     </ul>
@@ -314,52 +316,37 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Desenvolvedores</h2>
+                    <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Kay Garland</h4>
-                        <p class="text-muted">Lead Designer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Larry Parker</h4>
-                        <p class="text-muted">Lead Marketer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                     <div class="team-member">
                         <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Diana Pertersen</h4>
-                        <p class="text-muted">Lead Developer</p>
+                        <h4>Eric Ribeiro</h4>
+                        <p class="text-muted">Desenvolvimento</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-telegram"></i></a>
+                            </li>
+                            <li><a href="https://github.com/EricRibeiro "><i class="fa fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="team-member">
+                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Pedro Pongelupe</h4>
+                        <p class="text-muted">Desenvolvedor</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-facebook"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            <li><a href="https://github.com/Pongelupe"><i class="fa fa-github"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -367,7 +354,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                    <p class="large text-muted">Agradeçemos aos envolvidos, à PUC Minas, à Microsoft, à TOTVS, ao Guilherme e Ednaldo Pereira.</p>
                 </div>
             </div>
         </div>
@@ -377,24 +364,19 @@
     <aside class="clients">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <a href="#">
-                        <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
+                        <img src="img/logos/puc_logo.jpg" class="img-responsive img-centered" alt="PUC Minas">
                     </a>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <a href="#">
-                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
+                        <img src="img/logos/microsoft_logo.png" class="img-responsive img-centered" alt="Microsoft">
                     </a>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <a href="#">
-                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
+                        <img src="img/logos/totvs_logo.png" class="img-responsive img-centered" alt="TOTVS">
                     </a>
                 </div>
             </div>
@@ -406,8 +388,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Tire sua dúvida!</h2>
+                    <h3 class="section-subheading text-muted">Não existe pergunta boba!</br>Doar sangue é assunto sério.</h3>
                 </div>
             </div>
             <div class="row">
@@ -416,15 +398,15 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <input type="text" class="form-control" placeholder="Seu nome *" id="name" required data-validation-required-message="Seu nome">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <input type="email" class="form-control" placeholder="Seu E-mail *" id="email" required data-validation-required-message="Seu endereço de E-mail">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <input type="tel" class="form-control" placeholder="Seu telefone *" id="phone" required data-validation-required-message="Seu número">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -437,7 +419,7 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
+                                <button type="submit" class="btn btn-xl">Enviar</button>
                             </div>
                         </div>
                     </form>
@@ -492,18 +474,17 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <p>
-                                    <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
+                                <h2>Inverno Cruz</h2>
+                                <p class="item-intro text-muted">Belo Horizonte</p>
+                                <img class="img-responsive img-centered" src="img/hospitals/vera_cruz.jpg" alt="Hospital Inverno Cruz">
+                                <p>O hospital Inverno Cruz vem desde 1998 salvando vidas em Belo Horizonte. Em 2007 recebeu o prêmio JS devido à tremenda dedicação aos pacientes.</br> Em janeiro de 2013, foi  pioneiro na implementação de novas tecnologias apoiando a Bloody PUT.</p>
+                                <!-- <p>
+                                    <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p> -->
                                 <ul class="list-inline">
-                                    <li>Date: July 2014</li>
-                                    <li>Client: Round Icons</li>
-                                    <li>Category: Graphic Design</li>
+                                    <li>Desde Janeiro 2013</li>
+                                    <li><a href="#">Sobre o hospital</a></li>
                                 </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Voltar</button>
                             </div>
                         </div>
                     </div>
@@ -526,12 +507,15 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Project Heading</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-                                <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                                <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <h2>Felício Vermelho</h2>
+                                <p class="item-intro text-muted">Belo Horizonte</p>
+                                <img class="img-responsive img-centered" src="img/hospitals/felicio_vermelho.jpg" alt="Hospital Félicio Vermelho" width="70%" height="70%">
+                                <p> O hospital Félicio Vermelho em Belo Horizonte vem atendendo pacientes desde 1927,sendo o hospital brasileiro mais tradicional em parceria com a Bloody PUT.Parceria que se vem desde o princípio do ano de 2016.</p>
+                                <ul class="list-inline">
+                                    <li>Desde Março 2016</li>
+                                    <li><a href="#">Sobre o hospital</a></li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Voltar</button>
                             </div>
                         </div>
                     </div>
@@ -555,12 +539,15 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-                                <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <h2>Salvação de Jesus</h2>
+                                <p class="item-intro text-muted">São Paulo</p>
+                                <img class="img-responsive img-centered" src="img/hospitals/salvação_de_jesus.jpg" alt="Hospital Salvação de Jesus">
+                                <p> O hospital Salvação de Jesus vem atendendo pacientes desde 1985, a instituição não cobra pelos serviços e é sustentada pela Igreja. Salvação de Jesus foi o primeiro parceiro da Bloody PUT fora do San Pedro Valley, é um forte laço desde outubro de 2015</p>
+                                <ul class="list-inline">
+                                    <li>Desde Outubro de 2015</li>
+                                    <li><a href="#">Sobre o hospital</a></li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Voltar</button>
                             </div>
                         </div>
                     </div>
@@ -584,12 +571,15 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
-                                <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <h2>Serio Dinamarquês</h2>
+                                <p class="item-intro text-muted">São Paulo</p>
+                                <img class="img-responsive img-centered" src="img/hospitals/serio_dinamarques.jpg" alt="Hospital Serio Dinamarquês" width="60%" height="60%">
+                                <p> O hospital Serio Dinamarquês carrega a medicina dinamarquesa e sueca nas terras de São Paulo, desde 1945. O hospital é especializado em tratar de ferimentos causado por lâminas ou perfurações. O hospital detém o maior número de pacientes que necessitam de transfusão no Estado. Está em parceira com a Bloody Put desde o natal de 2015.</p>
+                                <ul class="list-inline">
+                                    <li>Desde Dezembro de 2015</li>
+                                    <li><a href="#">Sobre o hospital</a></li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Voltar</button>
                             </div>
                         </div>
                     </div>
@@ -613,12 +603,15 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
-                                <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <h2>JC's City Hospital</h2>
+                                <p class="item-intro text-muted">Jacksonville Capital,US</p>
+                                <img class="img-responsive img-centered" src="img/hospitals/tampa.jpg" width="80%" height="80%" alt="JC's City Hospital">
+                                <p> JC's City Hospital em North Savanna atende as crianças carentes da região interiorana do Missouri desde 2001.É mantida por filantropia de grupos como YMCA e C#, e atende em média 200 crianças por dia. Essa forte parceria foi a primeira no âmbito internacional para a Bloody PUT, em junho de 2016.</p>
+                                <ul class="list-inline">
+                                    <li>Desde Junho de 2016</li>
+                                    <li><a href="#">Sobre o hospital</a></li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Voltar</button>
                             </div>
                         </div>
                     </div>
@@ -642,12 +635,15 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
-                                <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <h2>Viridiano's Pokecenter</h2>
+                                <p class="item-intro text-muted">Viridiano, Japão</p>
+                                <img class="img-responsive img-centered" src="img/hospitals/PokeCenter.png" alt="PokeCenter" height="60%" width="60%">
+                                <p> Pokecenter de Viridiano é o mais forte hospital da região, atende frequentemente locais e estrangeiros devido os ataques frequentes de animais perigosos na Floresta de Viridiano. É a primeira parceria da Blood PUT no oriente, desde setembro de 2016.</p>
+                                <ul class="list-inline">
+                                    <li>Desde Setembro de 2016</li>
+                                    <li><a href="#">Sobre o hospital</a></li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Voltar</button>
                             </div>
                         </div>
                     </div>
