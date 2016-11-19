@@ -1,4 +1,3 @@
-<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 <!DOCTYPE html>
 <html>
     <head>
@@ -9,19 +8,26 @@
         <meta name="author" content="">
         <title>Página do Receptor</title>
 
-        <!-- Form's CSS --> 
+        <!-- Bootstrap Core CSS -->
         <link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/bootstrap.min.css">
+
+        <!-- Form's CSS --> 
         <link rel="stylesheet" type="text/css" href="../css/receptorForm.css">
+
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" type="text/css" href="../vendor/font-awesome/css/font-awesome.min.css">
+
+        <!-- Sweet Alert CSS -->
         <link rel="stylesheet" type="text/css" href="../vendor/sweetalert/css/sweetalert.css">
 
         <!-- jQuery -->
         <script src="../vendor/jquery/jquery.min.js"></script>
 
-        <!-- Main's JavaScript -->
-        <script src="../js/userInput.js"></script>
-
         <!-- SweetAlert's JavaScript -->
         <script src="../vendor/sweetalert/js/sweetalert.min.js"></script>
+
+        <!-- Main's JavaScript -->
+        <script src="../js/userInput.js"></script>
 
     </head>
     <body>
@@ -57,7 +63,7 @@
                 </div>
 
                 <div class="ccfield-prepend">
-                    <button class="ccbtn" onclick="userInput();">Enviar</button> 
+                    <input class="ccbtn" value="Enviar" onclick="userInput();">
                 </div>
             </form>
         </div>

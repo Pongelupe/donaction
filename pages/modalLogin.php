@@ -5,8 +5,8 @@
 				<div class="loginmodal-container">
 					<h1>Entre na sua Conta</h1><br>
 				  <form>
-  					<input type="text" placeholder="Username" id="userName">
-  					<input type="password" placeholder="Password" id="userPassword">
+  					<input type="text" placeholder="Email" id="userEmail" required>
+  					<input type="password" placeholder="Senha" id="userPassword" required>
   					<input type="submit" class="login loginmodal-submit" value="Login" onclick="userLogin()">
 				  </form>
 					

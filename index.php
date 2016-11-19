@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Agency - Start Bootstrap Theme</title>
+    <title>Doe Sangue</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,15 +23,15 @@
 
     <!-- Theme CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
+
+    <!-- Modal CSS -->
     <link href="css/modalLogin.css" rel="stylesheet">
+
+    <!-- Sweet Alert CSS -->
     <link href="vendor/sweetalert/css/sweetalert.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
 
 </head>
 
@@ -43,9 +43,9 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    <span class="sr-only">Navegador</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Bloody Put</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -55,19 +55,19 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#services">Serviços</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#portfolio">Exemplos</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">História</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a class="page-scroll" href="#team">Time</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">Contato</a>
                     </li>
 
                     <li>
@@ -85,9 +85,9 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="pages/receptorForm.html" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="intro-lead-in">Doe Sangue</div>
+                <div class="intro-heading">Você Pode Salvar Vidas</div>
+                <a href="pages/receptorForm.html" class="page-scroll btn btn-xl">Cadastrar</a>
             </div>
         </div>
     </header>
@@ -97,34 +97,34 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Como Funciona</h2>
+                    <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-user-o fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Cadastro</h4>
+                    <p class="text-muted">O primeiro passo é realizar o cadastro no site como doador ou receptor, lembrando que é importante responder corretamente e lembrar dos seus dados.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-bar-chart fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Algoritmos</h4>
+                    <p class="text-muted">Depois nós vamos usar nossos poderes matemágicos para encontrar pessoas com o mesmo tipo sanguíneo perto de você e te avisaremos.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-hospital-o fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Viver</h4>
+                    <p class="text-muted">Pronto! Agora só falta ir no posto de coleta combinado para trabalhar os detalhes, marcar a coleta ou a transfusão e levar uma vida saudável.</p>
                 </div>
             </div>
         </div>
@@ -135,7 +135,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
+                    <h2 class="section-heading">Exemplos</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
@@ -233,7 +233,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
+                    <h2 class="section-heading">História</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
@@ -658,6 +658,9 @@
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
+    
+    <!-- User Login JavaScript -->
+    <script src="js/userLogin.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -670,7 +673,8 @@
 
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
-    <script src="js/userLogin.js"></script>
+
+    <!-- Sweet Alert JavaScript -->
     <script src="vendor/sweetalert/js/sweetalert.min.js"></script>
 
 </body>

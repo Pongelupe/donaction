@@ -4,15 +4,17 @@ function userInput () {
 	var userPhone = document.getElementById('phone').value;
 	var userLocation = document.getElementById('location').value;
 	var userBlood = document.getElementById('blood').value;
-	var userData = {
-		"userName": userName,
-		"userEmail": userEmail,
-		"userPhone": userPhone,
-		"userLocation": userLocation,
-		"userBlood": userBlood
-	};
-	var sendData = JSON.stringify(userData);
 	
+	// Array's declaration and values assignement
+	var userData = {}; 
+	userData.id = "";
+	userData.userName = userName;
+	userData.userEmail = userEmail;
+	userData.userPhone = userPhone;
+	userData.userLocation = userLocation;
+	userData.userBlood = userBlood;
+	
+	var sendData = JSON.stringify(userData);
 	$.ajax({
 	    url:"https://api.myjson.com/bins",
 	    type:"POST",
@@ -22,6 +24,7 @@ function userInput () {
 	    success: function(data, textStatus, jqXHR){
 	    	var userUri = data.uri;
 	    	userId = breakUri(userUri);
+	    	pushId(userData, userId);
 	    	swal({
 			  html: true,
 			  title: "Senha de Acesso: " + userId,
@@ -38,8 +41,22 @@ function userInput () {
 	});   
 }
 
-function breakUri (userUri) {
+// Function to break the URI and get the ID
+function breakUri(userUri) {
 	var splittedURL = userUri.split(/\/+/g);
 	var userId = splittedURL[splittedURL.length-1];
 	return userId
+}
+
+//Function to update the object with the user's ID
+function pushId(userData, userId) {
+	userData.id = userId;
+	sendData = JSON.stringify(userData);
+	$.ajax({
+    url:"https://api.myjson.com/bins/" + userId,
+    type:"PUT",
+    data: sendData,
+    contentType:"application/json; charset=utf-8",
+    dataType:"json",
+});   
 }
