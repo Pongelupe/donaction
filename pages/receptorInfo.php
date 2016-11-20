@@ -23,36 +23,42 @@
 <div class="container-fluid">
      <form class="register-form"> 
       
-      <div class="row">      
-           <div class="col-md-4 col-sm-4 col-lg-4 col-md-offset-3 col-sm-offset-3 col-lg-offset-3">
+      <div class="row row-centered">      
+           <div class="col-lg-12 col-centered">
               <picture>
-                  <img src="../img/custom/Woz.png" class="img-circle" height="180" width="180">
+                  <img src="../img/custom/Woz.png" id="userAvatar" class="img-circle" height="180" width="180">
               </picture>    
            </div>            
       </div> 
 
-      <div class="row">      
-           <div class="col-md-12 col-sm-12 col-lg-12 col-md-offset-2 col-sm-offset-2 col-lg-offset-2">
-              <div id="userName" class="userName">Olá, Usuário</div>  
+      <div class="row row-centered">      
+           <div class="col-lg-12 col-centered">
+              <div id="userName" class="userName">Usuário</div>  
            </div>            
       </div>
 
+      <div class="row row-centered">
+        <div class="col-lg-12 col-centered">
+          <div id="userBlood" class="userBlood">Tipo Sanguíneo</div>
+        </div>
+      </div>
+
       <div class="row">
-           <div class="col-md-4 col-sm-4 col-lg-4">
+           <div class="col-lg-12">
               <label for="email">EMAIL</label>
                <input name="email" class="form-control" type="text" id="email" onclick="clearField(this.id)" onfocusout="notBlank(this.id)" required>             
            </div>            
       </div>
 
       <div class="row">
-           <div class="col-md-4 col-sm-4 col-lg-4">
+           <div class="col-lg-12">
               <label for="phone">TELEFONE</label>
                <input name="phone" class="form-control" type="text" id="phone" onclick="clearField(this.id)" onfocusout="notBlank(this.id)" required>             
            </div>            
       </div>
 
       <div class="row">
-           <div class="col-md-4 col-sm-4 col-lg-4">
+           <div class="col-lg-12">
               <label for="city">CIDADE</label>
                <input name="city" class="form-control" type="text" id="city" onclick="clearField(this.id)" onfocusout="notBlank(this.id)" required>             
            </div>            
@@ -61,7 +67,7 @@
       <hr>
       <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
-                <button class="btn btn-default regbutton" onclick="history.go(-1)">Cancelar</button>
+                <button class="btn btn-default regbutton" onclick="endSession()">Cancelar</button>
             </div>
 
             <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">

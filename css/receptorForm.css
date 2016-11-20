@@ -104,3 +104,11 @@ text-decoration: none;
 body > div.wrapper > form > div.container {
 	width: auto !important;
 }
+
+body > div > form > div.dropdown > div > button {
+	color: #999;
+}
+
+body > div > form > div.dropdown > div > ul {
+	margin-left: 8%;
+}

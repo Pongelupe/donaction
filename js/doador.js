@@ -15,7 +15,7 @@ function userInput () {
 	userData.userPhone = userPhone;
 	userData.userLocation = userLocation;
 	userData.userBlood = userBlood;
-	userData.canDonate =canDonate;
+	userData.canDonate = canDonate;
 	
 	var sendData = JSON.stringify(userData);
 	$.ajax({

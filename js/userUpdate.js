@@ -1,6 +1,8 @@
 function userSession() {
 	userData = JSON.parse(localStorage.getItem("userData"));
-	document.getElementById("userName").innerHTML = "Olá, " + userData.userName;
+	document.getElementById("userAvatar").src = "https://api.adorable.io/avatars/180/" + userData.id + ".png";
+	document.getElementById("userName").innerHTML = userData.userName;
+	document.getElementById("userBlood").innerHTML = userData.userBlood;
 	document.getElementById("email").value = userData.userEmail;
 	document.getElementById("phone").value = userData.userPhone;
 	document.getElementById("city").value = userData.userLocation;
@@ -37,10 +39,19 @@ function updateData() {
     }
 });  
 }
+	
 
 function notBlank (inputId) {
 	var inputValue = document.getElementById(inputId).value;
 	if (inputValue == "") {
 		userSession();
 	}
+}
+
+function endSession() {
+	localStorage.removeItem("userData");
+	for (i = 0; i < 3; i++) {
+		document.getElementsByTagName("input")[i].value = "";
+	}
+	history.go(-1);
 }
