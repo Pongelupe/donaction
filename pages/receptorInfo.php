@@ -40,21 +40,21 @@
       <div class="row">
            <div class="col-md-4 col-sm-4 col-lg-4">
               <label for="email">EMAIL</label>
-               <input name="email" class="form-control" type="text" id="email" onclick="clearField(this.id)" required>             
+               <input name="email" class="form-control" type="text" id="email" onclick="clearField(this.id)" onfocusout="notBlank(this.id)" required>             
            </div>            
       </div>
 
       <div class="row">
            <div class="col-md-4 col-sm-4 col-lg-4">
               <label for="phone">TELEFONE</label>
-               <input name="phone" class="form-control" type="text" id="phone" onclick="clearField(this.id)" required>             
+               <input name="phone" class="form-control" type="text" id="phone" onclick="clearField(this.id)" onfocusout="notBlank(this.id)" required>             
            </div>            
       </div>
 
       <div class="row">
            <div class="col-md-4 col-sm-4 col-lg-4">
               <label for="city">CIDADE</label>
-               <input name="city" class="form-control" type="text" id="city" onclick="clearField(this.id)" required>             
+               <input name="city" class="form-control" type="text" id="city" onclick="clearField(this.id)" onfocusout="notBlank(this.id)" required>             
            </div>            
       </div>
 

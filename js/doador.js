@@ -1,23 +1,23 @@
-var questionario="";
-function createUser() {
-	var name = document.getElementById("name").value;
-	var email = document.getElementById("email").value;
-	var phone = document.getElementById("phone").value;
-	var location = document.getElementById("location").value;
-	var blood = document.getElementById("bloody").value;
-	var data = {
-		"name": name,
-		"email": email,
-		"phone": phone,
-		"blood": blood,
-		"location": location,
-		"status": questionario
-	};
-	var sendData = JSON.stringify(data);
-	/*var myArray=[data.name,data.email,data.phone,data.location,data.status];
-	var ok =validator(myArray);*/
+var canDonate;
 
-	if (ok==true) {
+function userInput () {
+	var userName = document.getElementById('name').value;
+	var userEmail = document.getElementById('email').value;
+	var userPhone = document.getElementById('phone').value;
+	var userLocation = document.getElementById('location').value;
+	var userBlood = document.getElementById('bloody').value;
+	
+	// Array's declaration and values assignement
+	var userData = {}; 
+	userData.id = "";
+	userData.userName = userName;
+	userData.userEmail = userEmail;
+	userData.userPhone = userPhone;
+	userData.userLocation = userLocation;
+	userData.userBlood = userBlood;
+	userData.canDonate =canDonate;
+	
+	var sendData = JSON.stringify(userData);
 	$.ajax({
 	    url:"https://api.myjson.com/bins",
 	    type:"POST",
@@ -27,6 +27,7 @@ function createUser() {
 	    success: function(data, textStatus, jqXHR){
 	    	var userUri = data.uri;
 	    	userId = breakUri(userUri);
+	    	pushId(userData, userId);
 	    	swal({
 			  html: true,
 			  title: "Senha de Acesso: " + userId,
@@ -36,34 +37,47 @@ function createUser() {
 			  closeOnConfirm: false,
 			},    	  
 			  function() {
-			  	location.href = "/..index.php";
+			  	location.href = "../index.php"
 			 }
 			)
 	    }
 	});   
 }
-}
 
-function breakUri (userUri) {
+// Function to break the URI and get the ID
+function breakUri(userUri) {
 	var splittedURL = userUri.split(/\/+/g);
 	var userId = splittedURL[splittedURL.length-1];
 	return userId
 }
 
-function checkbox_config(x){
-	questionario=x;
+//Function to update the object with the user's ID
+function pushId(userData, userId) {
+	userData.id = userId;
+	sendData = JSON.stringify(userData);
+	$.ajax({
+    url:"https://api.myjson.com/bins/" + userId,
+    type:"PUT",
+    data: sendData,
+    contentType:"application/json; charset=utf-8",
+    dataType:"json",
+});   
 }
 
-function validator(x){
-	for (var i = 0; i < x.length; i++) {
-		if (x[i]=="") {
-			swal({
-			  title: "Preencha todos os campos",
-			  type: "error",
-			  confirmButtonText: "Voltar"
-			});
-			return false;
-		}
-	}
-	return true;
+function checkbox_config(x){
+	canDonate = x;
 }
+
+// function validator(x){
+// 	for (var i = 0; i < x.length; i++) {
+// 		if (x[i] == "") {
+// 			swal({
+// 			  title: "Preencha todos os campos",
+// 			  type: "error",
+// 			  confirmButtonText: "Voltar"
+// 			});
+// 			return false;
+// 		}
+// 	}
+// 	return true;
+// }

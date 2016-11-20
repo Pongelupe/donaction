@@ -55,9 +55,8 @@
                     <span class="ccform-addon"><i class="fa fa-tint fa-2x"></i></span>
                     <input class="ccformfield" type="text" id="bloody" placeholder="Tipo Sanguíneo" required>
                 </div>
-                            <div class="container">  
-                <div class="ccfield-prepend">
-                    <label>Questionário</label>
+                
+                <div class="container">  
                     <table class="table table-condensed">
                         <thead>
                             <tr>
@@ -121,16 +120,18 @@
                             </tr>
                         </tbody>
                     </table>
-                </div>
-            </div>
+                </div> <!-- Container -->
 
-                <div class="ccfield-prepend">
-                    <button class="ccbtn" onclick="createUser();">Enviar</button>
+                <div class="row">
+                     <div class="col-lg-9 col-xs-6">
+                        <input class="ccbtn" value="Cancelar" onclick="history.go(-1);">
+                     </div>
+
+                     <div class="col-lg-3 col-xs-6">
+                        <input class="ccbtn" value="Enviar" onclick="userInput();">
+                     </div>
                 </div>
             </form>
-        </div>
-        <div class="credit">
-        <p>The HTML5 Contact Form is simple and becautiful looking with awesome features. This form is created using CSS3 and HTML5. It allow you to customize easily and implementions so easy. You can simply copy and paste the HTML and CSS code to add into your website. This HTML5 form have all required fields eg name, email, phone and message etc. You can read more about <a href="http://codeconvey.com/creating-simple-html5-contact-form/" target="_blank">HTML5 Contact Form</a> here and read about implemention steps. We have explain a complete proces of implementions.</p>
-        </div>
+        </div> <!-- wrapper -->
     </body>
 </html>

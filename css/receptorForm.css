@@ -2,7 +2,7 @@
 
 
 body {
-	background: #f29107;
+	background: #444444;
 	color: #fff;
 	font-weight: 400;
 	font-size: 1em;
@@ -11,6 +11,7 @@ body {
 	padding:0;
 	padding-bottom:60px;
 }
+
 .ccheader {
 	margin: 0 auto;
 	padding: 2em;
@@ -47,7 +48,7 @@ body {
 }
 
 .ccform-addon{
-	color:#f8ae45; 
+	color:#ee2c2c; 
 	float:left;
 	padding:8px;
 	width:8%;
@@ -72,7 +73,7 @@ body {
 .ccbtn{
 	display:block;
 	border:none;
-	background:#f8ae45;
+	background:#ff3030;
 	color:#FFFFFF;
 	padding:12px 25px;
 	cursor:pointer;
@@ -80,7 +81,7 @@ body {
 	font-weight:bold;
 }
 .ccbtn:hover{
-	background:#d8850e;
+	background:#ee2c2c;
 
 }
 .credit {
@@ -98,4 +99,8 @@ margin-right:5px;
 color: #000;
 font-weight: bold;
 text-decoration: none;
+}
+
+body > div.wrapper > form > div.container {
+	width: auto !important;
 }

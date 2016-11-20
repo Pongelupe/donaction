@@ -37,3 +37,10 @@ function updateData() {
     }
 });  
 }
+
+function notBlank (inputId) {
+	var inputValue = document.getElementById(inputId).value;
+	if (inputValue == "") {
+		userSession();
+	}
+}
