@@ -1,6 +1,6 @@
 function userSession() {
 	userData = JSON.parse(localStorage.getItem("userData"));
-	document.getElementById("userName").innerHTML = userData.userName;
+	document.getElementById("userName").innerHTML = "Olá, " + userData.userName;
 	document.getElementById("email").value = userData.userEmail;
 	document.getElementById("phone").value = userData.userPhone;
 	document.getElementById("city").value = userData.userLocation;

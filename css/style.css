@@ -18,3 +18,50 @@ header {
 .timeline > li .timeline-image {
     background-color: #444444;
 }
+
+#inputModal > div {
+    margin-top: 7%;
+}
+
+#inputModal > div > div {
+    background-color: #444444;
+}
+
+#inputModal > div > div > div.modal-body > div > div > div:nth-child(1) > div > div:nth-child(1) > p , #inputModal > div > div > div.modal-body > div > div > div:nth-child(2) > div > div:nth-child(1) > p  {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    color: white;
+}
+
+#inputModal > div > div > div.modal-body > div > div > div:nth-child(1) > div > div:nth-child(2) > figure > img {
+    margin: 0 0 0 7%;
+}
+
+#inputModal > div > div > div.modal-body > div > div > div:nth-child(2) > div > div:nth-child(2) > figure > img {
+    margin: 0 0 0 16%;
+}
+
+#inputModal > div > div > div.modal-body > div > div > div:nth-child(1) > div > div:nth-child(3) > button {
+    margin: 10% 0 0 12%;
+}
+
+#inputModal > div > div > div.modal-body > div > div > div:nth-child(2) > div > div:nth-child(3) > button {
+    margin: 10% 0 0 21%;
+}
+
+#page-top > div.modal-backdrop.fade.in {
+    z-index: 0;
+}
+
+#inputModal > div > div > div.modal-body {
+    padding: 6%;
+}
+
+#inputModal > div > div > div.modal-header > a {
+    text-decoration: none;
+    float: right;
+}
+
+#inputModal > div > div > div.modal-header > a::before {
+    color: white;
+}
