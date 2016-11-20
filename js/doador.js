@@ -6,7 +6,7 @@ function userInput () {
 	var userPhone = document.getElementById('phone').value;
 	var userLocation = document.getElementById('location').value;
 	var userBlood = document.getElementById('bloody').value;
-	var userDonator=toDonate(canDonate);
+	var userDonator=toDonate();
 	
 	// Array's declaration and values assignement
 	var userData = {}; 
@@ -69,17 +69,12 @@ function checkbox_config(x,y){
 	canDonate[y]=x;
 }
 
-function toDonate(x){
-	var result;
-	for (var i = 0; i < x.length; i++) {
-		if (x[i]=="nao_apto"){
-			result="nao_apto";
+function toDonate(){
+	var result= true;
+	for (var i = 0; i < canDonate.length; i++) {
+		if (canDonate[i]==false){
+			result=false;
 		}
 	}
-	if (result=="nao_apto") {
-		return result;
-	}
-	else{
-		return result;
-	}
+	return result;
 }
