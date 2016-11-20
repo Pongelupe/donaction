@@ -1,4 +1,4 @@
-var canDonate;
+var canDonate=["","","",""];
 
 function userInput () {
 	var userName = document.getElementById('name').value;
@@ -6,6 +6,7 @@ function userInput () {
 	var userPhone = document.getElementById('phone').value;
 	var userLocation = document.getElementById('location').value;
 	var userBlood = document.getElementById('bloody').value;
+	var userDonator=toDonate(canDonate);
 	
 	// Array's declaration and values assignement
 	var userData = {}; 
@@ -15,7 +16,7 @@ function userInput () {
 	userData.userPhone = userPhone;
 	userData.userLocation = userLocation;
 	userData.userBlood = userBlood;
-	userData.canDonate = canDonate;
+	userData.canDonate = userDonator;
 	
 	var sendData = JSON.stringify(userData);
 	$.ajax({
@@ -64,20 +65,21 @@ function pushId(userData, userId) {
 });   
 }
 
-function checkbox_config(x){
-	canDonate = x;
+function checkbox_config(x,y){
+	canDonate[y]=x;
 }
 
-// function validator(x){
-// 	for (var i = 0; i < x.length; i++) {
-// 		if (x[i] == "") {
-// 			swal({
-// 			  title: "Preencha todos os campos",
-// 			  type: "error",
-// 			  confirmButtonText: "Voltar"
-// 			});
-// 			return false;
-// 		}
-// 	}
-// 	return true;
-// }
+function toDonate(x){
+	var result;
+	for (var i = 0; i < x.length; i++) {
+		if (x[i]=="nao_apto"){
+			result="nao_apto";
+		}
+	}
+	if (result=="nao_apto") {
+		return result;
+	}
+	else{
+		return result;
+	}
+}
