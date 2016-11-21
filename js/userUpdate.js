@@ -1,5 +1,5 @@
 function userSession() {
-	userData = JSON.parse(localStorage.getItem("userData"));
+	var userData = JSON.parse(localStorage.getItem("userData"));
 	document.getElementById("userAvatar").src = "https://api.adorable.io/avatars/180/" + userData.id + ".png";
 	document.getElementById("userName").innerHTML = userData.userName;
 	document.getElementById("userBlood").innerHTML = userData.userBlood;
@@ -14,7 +14,7 @@ function clearField(inputId) {
 
 function updateData() {
 	event.preventDefault();
-	userData = JSON.parse(localStorage.getItem("userData")); 
+	var userData = JSON.parse(localStorage.getItem("userData")); 
 	var newEmail = document.getElementById("email").value;
 	var newPhone = document.getElementById("phone").value;
 	var newLocation = document.getElementById("city").value;
@@ -42,9 +42,19 @@ function updateData() {
 	
 
 function notBlank (inputId) {
+	var userData = JSON.parse(localStorage.getItem("userData"));
 	var inputValue = document.getElementById(inputId).value;
-	if (inputValue == "") {
-		userSession();
+	
+	if (inputValue == "" && inputId == "email") {
+		document.getElementById(inputId).value = userData.userEmail
+	}
+
+	if (inputValue == "" && inputId == "phone") {
+		document.getElementById(inputId).value = userData.userPhone
+	}
+
+	if (inputValue == "" && inputId == "city") {
+		document.getElementById(inputId).value = userData.userLocation
 	}
 }
 
