@@ -21,10 +21,8 @@
 
 </head>
 
-<body onload="userSession()">
+<body onload="userFirstSession()">
 
-<!-- Include of the navBar -->
- <?php include 'navBar.php'; ?> 
 
 <div class="container-fluid">
      <form class="register-form"> 
@@ -48,36 +46,8 @@
           <div id="userBlood" class="userBlood">Tipo Sanguíneo</div>
         </div>
       </div>
-
-      <div class="row">
-           <div class="col-lg-12">
-              <label for="email">EMAIL</label>
-               <input name="email" class="form-control" type="text" id="email" onclick="clearField(this.id)" onfocusout="notBlank(this.id)" required>             
-           </div>            
-      </div>
-
-      <div class="row">
-           <div class="col-lg-12">
-              <label for="phone">TELEFONE</label>
-               <input name="phone" class="form-control" type="text" id="phone" onclick="clearField(this.id)" onfocusout="notBlank(this.id)" required>             
-           </div>            
-      </div>
-
-      <div class="row">
-           <div class="col-lg-12">
-              <label for="city">CIDADE</label>
-               <input name="city" class="form-control" type="text" id="city" onclick="clearField(this.id)" onfocusout="notBlank(this.id)" required>             
-           </div>            
-      </div>
-
-      <hr>
-      <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                <button class="btn btn-default logbutton" onclick="updateData()">Alterar</button>           
-            </div>          
-      </div>    
-    </form>
 </div>
+</form>
 
 <!-- jQuery -->
     <script src="../vendor/jquery/jquery.min.js"></script>
@@ -90,5 +60,7 @@
 
     <!-- Nav Bar's js-->
     <script src="/../js/navBar.js"></script>
+<!-- Include of the navBar -->
+ <?php include 'navBar.php'; ?> 
 </body>
 </html>

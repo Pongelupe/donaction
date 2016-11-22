@@ -1,3 +1,14 @@
+function userFirstSession() {
+	var userData = JSON.parse(localStorage.getItem("userData"));
+	document.getElementById("userAvatar").src = "https://api.adorable.io/avatars/180/" + userData.id + ".png";
+	document.getElementById("userName").innerHTML = userData.userName;
+	document.getElementById("userBlood").innerHTML = userData.userBlood;
+	var bol = userData.canDonate;
+	if (bol==false || bol==undefined) {
+	document.getElementById("donate").style.display="none";
+}
+}
+
 function userSession() {
 	var userData = JSON.parse(localStorage.getItem("userData"));
 	document.getElementById("userAvatar").src = "https://api.adorable.io/avatars/180/" + userData.id + ".png";
@@ -6,6 +17,10 @@ function userSession() {
 	document.getElementById("email").value = userData.userEmail;
 	document.getElementById("phone").value = userData.userPhone;
 	document.getElementById("city").value = userData.userLocation;
+	var bol = userData.canDonate;
+	if (bol==false) {
+	document.getElementById("donate").style.display="none";
+}
 }
 
 function clearField(inputId) {
@@ -60,8 +75,8 @@ function notBlank (inputId) {
 
 function endSession() {
 	localStorage.removeItem("userData");
-	for (i = 0; i < 3; i++) {
+	/*for (i = 0; i < 3; i++) {
 		document.getElementsByTagName("input")[i].value = "";
-	}
-	history.go(-1);
+	}*/
+	location.href=("../index.php");
 }
