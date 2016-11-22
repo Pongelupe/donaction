@@ -121,7 +121,7 @@
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-hospital-o fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-heart-o fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Menos Burocracia</h4>
                     <p class="text-muted">Pronto! Agora só falta ir no posto de coleta combinado para trabalhar os detalhes, marcar a coleta ou a transfusão e levar uma vida saudável.</p>
