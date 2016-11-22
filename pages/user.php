@@ -59,7 +59,8 @@
     <script src="../js/userUpdate.js"></script>
 
     <!-- Nav Bar's js-->
-    <script src="/../js/navBar.js"></script>
+    <script src="../js/navBar.js"></script>
+
 <!-- Include of the navBar -->
  <?php include 'navBar.php'; ?> 
 </body>

@@ -7,6 +7,7 @@ function userFirstSession() {
 	if (bol==false || bol==undefined) {
 	document.getElementById("donate").style.display="none";
 }
+	else{document.getElementById("hospital").style.display="none";}
 }
 
 function userSession() {
@@ -18,9 +19,10 @@ function userSession() {
 	document.getElementById("phone").value = userData.userPhone;
 	document.getElementById("city").value = userData.userLocation;
 	var bol = userData.canDonate;
-	if (bol==false) {
+	if (bol==false || bol==undefined) {
 	document.getElementById("donate").style.display="none";
 }
+else{document.getElementById("hospital").style.display="none";}
 }
 
 function clearField(inputId) {

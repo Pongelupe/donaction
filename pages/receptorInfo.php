@@ -89,6 +89,6 @@
     <script src="../js/userUpdate.js"></script>
 
     <!-- Nav Bar's js-->
-    <script src="/../js/navBar.js"></script>
+    <script src="../js/navBar.js"></script>
 </body>
 </html>
