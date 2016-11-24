@@ -6,6 +6,9 @@ function userFirstSession() {
 	var bol = userData.canDonate;
 	if (bol==false || bol==undefined) {
 	document.getElementById("donate").style.display="none";
+		if (bol==false) {
+			document.getElementById("hospital").style.display="none";
+		}
 }
 	else{document.getElementById("hospital").style.display="none";}
 }
@@ -21,6 +24,9 @@ function userSession() {
 	var bol = userData.canDonate;
 	if (bol==false || bol==undefined) {
 	document.getElementById("donate").style.display="none";
+		if (bol==false) {
+			document.getElementById("hospital").style.display="none";
+		}
 }
 else{document.getElementById("hospital").style.display="none";}
 }
