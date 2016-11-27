@@ -42,6 +42,11 @@
                 </div>
 
                 <div class="ccfield-prepend">
+                    <span class="ccform-addon"><i class="fa fa-envelope fa-2x"></i></span>
+                    <input class="ccformfield" type="text" id="emailConfirm" placeholder="Confirme o Email" required>
+                </div>
+
+                <div class="ccfield-prepend">
                     <span class="ccform-addon"><i class="fa fa-mobile-phone fa-2x"></i></span>
                     <input class="ccformfield" type="text" id="phone" placeholder="Telefone">
                 </div>
@@ -53,10 +58,20 @@
 
                 <div class="ccfield-prepend">
                     <span class="ccform-addon"><i class="fa fa-tint fa-2x"></i></span>
-                    <input class="ccformfield" type="text" id="bloody" placeholder="Tipo Sanguíneo" required>
+                    <select class="ccformfield" id="bloody" title="Tipo Sanguíneo">
+                        <option>Tipo Sanguíneo</option>
+                        <option>A +</option>
+                        <option>A -</option>
+                        <option>AB +</option>
+                        <option>AB -</option>
+                        <option>B +</option>
+                        <option>B -</option>
+                        <option>O +</option>
+                        <option>O -</option>
+                    </select>
                 </div>
                 
-                <div class="container">  
+                <div class="ccfield-prepend">  
                     <table class="table table-condensed">
                         <thead>
                             <tr>
@@ -70,12 +85,12 @@
                                 <td>Pesa pelo menos 50kg?</td>
                                 <div class="checkbox">
                                     <td>      
-                                        <input type="checkbox" onclick="checkbox_config(true,0)"/>
+                                        <input type="checkbox" name="checkbox" onclick="checkbox_config(true,0)"/>
                                     </td>
                                 </div>
                                     <div class="checkbox">
                                     <td>      
-                                        <input type="checkbox" onclick="checkbox_config(false,0)"/>
+                                        <input type="checkbox" name="checkbox" onclick="checkbox_config(false,0)"/>
                                     </td>
                                 </div>
                                 </tr>
@@ -83,12 +98,12 @@
                                 <td>Já teve malária?</td>
                                 <div class="checkbox">
                                     <td>      
-                                        <input type="checkbox" onclick="checkbox_config(false,1)"/>
+                                        <input type="checkbox" name="checkbox" onclick="checkbox_config(false,1)"/>
                                     </td>
                                 </div>
                                     <div class="checkbox">
                                     <td>      
-                                        <input type="checkbox" onclick="checkbox_config(true,1)"/>
+                                        <input type="checkbox" name="checkbox" onclick="checkbox_config(true,1)"/>
                                     </td>
                                 </div>
                             </tr>
@@ -96,12 +111,12 @@
                                 <td>Utiliza drogas injetáveis?</td>
                                 <div class="checkbox">
                                     <td>      
-                                        <input type="checkbox" onclick="checkbox_config(false,2)"/>
+                                        <input type="checkbox" name="checkbox" onclick="checkbox_config(false,2)"/>
                                     </td>
                                 </div>
                                     <div class="checkbox">
                                     <td>      
-                                        <input type="checkbox" onclick="checkbox_config(true,2)"/>
+                                        <input type="checkbox" name="checkbox" onclick="checkbox_config(true,2)"/>
                                     </td>
                                 </div>
                             </tr>
@@ -109,12 +124,12 @@
                                 <td>Fez tatuagem nos útimos 6 meses?</td>
                                 <div class="checkbox">
                                     <td>      
-                                        <input type="checkbox" onclick="checkbox_config(false,3)"/>
+                                        <input type="checkbox" name="checkbox" onclick="checkbox_config(false,3)"/>
                                     </td>
                                 </div>
                                     <div class="checkbox">
                                     <td>      
-                                        <input type="checkbox" onclick="checkbox_config(true,3)"/>
+                                        <input type="checkbox" name="checkbox" onclick="checkbox_config(true,3)"/>
                                     </td>
                                 </div>
                             </tr>
