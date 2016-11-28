@@ -1,90 +1,100 @@
 function userFirstSession() {
-	var userData = JSON.parse(localStorage.getItem("userData"));
-	document.getElementById("userAvatar").src = "https://api.adorable.io/avatars/180/" + userData.id + ".png";
-	document.getElementById("userName").innerHTML = userData.userName;
-	document.getElementById("userBlood").innerHTML = userData.userBlood;
-	var bol = userData.canDonate;
-	if (bol==false || bol==undefined) {
-	document.getElementById("donate").style.display="none";
-		if (bol==false) {
-			document.getElementById("hospital").style.display="none";
-		}
-}
-	else{document.getElementById("hospital").style.display="none";}
+    classActive();
+    var userData = JSON.parse(localStorage.getItem("userData"));
+    document.getElementById("userAvatar").src = "https://api.adorable.io/avatars/180/" + userData.id + ".png";
+    document.getElementById("userName").innerHTML = userData.userName;
+    document.getElementById("userBlood").innerHTML = userData.userBlood;
+    var bol = userData.canDonate;
+    if (bol == false || bol == undefined) {
+        document.getElementById("donate").style.display = "none";
+        if (bol == false) {
+            document.getElementById("hospital").style.display = "none";
+        }
+    } else {
+        document.getElementById("hospital").style.display = "none";
+    }
 }
 
 function userSession() {
-	var userData = JSON.parse(localStorage.getItem("userData"));
-	document.getElementById("userAvatar").src = "https://api.adorable.io/avatars/180/" + userData.id + ".png";
-	document.getElementById("userName").innerHTML = userData.userName;
-	document.getElementById("userBlood").innerHTML = userData.userBlood;
-	document.getElementById("email").value = userData.userEmail;
-	document.getElementById("phone").value = userData.userPhone;
-	document.getElementById("city").value = userData.userLocation;
-	var bol = userData.canDonate;
-	if (bol==false || bol==undefined) {
-	document.getElementById("donate").style.display="none";
-		if (bol==false) {
-			document.getElementById("hospital").style.display="none";
-		}
-}
-else{document.getElementById("hospital").style.display="none";}
+    classActive();
+    var userData = JSON.parse(localStorage.getItem("userData"));
+    document.getElementById("userAvatar").src = "https://api.adorable.io/avatars/180/" + userData.id + ".png";
+    document.getElementById("userName").innerHTML = userData.userName;
+    document.getElementById("userBlood").innerHTML = userData.userBlood;
+    document.getElementById("email").value = userData.userEmail;
+    document.getElementById("phone").value = userData.userPhone;
+    document.getElementById("city").value = userData.userLocation;
+    var bol = userData.canDonate;
+    if (bol == false || bol == undefined) {
+        document.getElementById("donate").style.display = "none";
+        if (bol == false) {
+            document.getElementById("hospital").style.display = "none";
+        }
+    } else {
+        document.getElementById("hospital").style.display = "none";
+    }
 }
 
 function clearField(inputId) {
-	document.getElementById(inputId).value = "";
+    document.getElementById(inputId).value = "";
 }
 
 function updateData() {
-	event.preventDefault();
-	var userData = JSON.parse(localStorage.getItem("userData")); 
-	var newEmail = document.getElementById("email").value;
-	var newPhone = document.getElementById("phone").value;
-	var newLocation = document.getElementById("city").value;
-	var sendData = {
-		"id": userData.id,
-		"userName": userData.userName,
-		"userEmail": newEmail,
-		"userPhone": newPhone,
-		"userLocation": newLocation,
-		"userBlood": userData.userBlood
-	};
-	sendData = JSON.stringify(sendData);
-	$.ajax({
-    url:"https://api.myjson.com/bins/" + userData.id,
-    type:"PUT",
-    data: sendData,
-    contentType:"application/json; charset=utf-8",
-    dataType:"json",
-    success: function(data, textStatus, jqXHR){
-    	alert("Dados atualizados");
-    	localStorage.setItem("userData", sendData)
-    }
-});  
+    event.preventDefault();
+    var userData = JSON.parse(localStorage.getItem("userData"));
+    var newEmail = document.getElementById("email").value;
+    var newPhone = document.getElementById("phone").value;
+    var newLocation = document.getElementById("city").value;
+    var sendData = {
+        "id": userData.id,
+        "userName": userData.userName,
+        "userEmail": newEmail,
+        "userPhone": newPhone,
+        "userLocation": newLocation,
+        "userBlood": userData.userBlood
+    };
+    sendData = JSON.stringify(sendData);
+    $.ajax({
+        url: "https://api.myjson.com/bins/" + userData.id,
+        type: "PUT",
+        data: sendData,
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function(data, textStatus, jqXHR) {
+            swal("Dados Alterados", "As alterações foram realizadas com sucesso", "success")
+            localStorage.setItem("userData", sendData)
+        }
+    });
 }
-	
 
-function notBlank (inputId) {
-	var userData = JSON.parse(localStorage.getItem("userData"));
-	var inputValue = document.getElementById(inputId).value;
-	
-	if (inputValue == "" && inputId == "email") {
-		document.getElementById(inputId).value = userData.userEmail
-	}
-
-	if (inputValue == "" && inputId == "phone") {
-		document.getElementById(inputId).value = userData.userPhone
-	}
-
-	if (inputValue == "" && inputId == "city") {
-		document.getElementById(inputId).value = userData.userLocation
-	}
+function notBlank(inputId) {
+    var userData = JSON.parse(localStorage.getItem("userData"));
+    var inputValue = document.getElementById(inputId).value;
+    if (inputValue == "" && inputId == "email") {
+        document.getElementById(inputId).value = userData.userEmail
+    }
+    if (inputValue == "" && inputId == "phone") {
+        document.getElementById(inputId).value = userData.userPhone
+    }
+    if (inputValue == "" && inputId == "city") {
+        document.getElementById(inputId).value = userData.userLocation
+    }
 }
 
 function endSession() {
-	localStorage.removeItem("userData");
-	/*for (i = 0; i < 3; i++) {
-		document.getElementsByTagName("input")[i].value = "";
-	}*/
-	location.href=("../index.php");
+    localStorage.removeItem("userData");
+    location.href = ("../index.php");
+}
+
+function classActive() {
+    var currentPage = location.href.split('/')[location.href.split('/').length - 1];
+    if (currentPage == "user.php") {
+        document.getElementsByTagName("li")[0].className = "active";
+    }
+    if (currentPage == "receptorInfo.php") {
+        document.getElementsByTagName("li")[1].className = "active";
+    }
+    if (currentPage == "searchHospitals.php") {
+        document.getElementsByTagName("li")[1].className = "active";
+    }
 }

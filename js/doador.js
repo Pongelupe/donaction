@@ -5,11 +5,15 @@ function userInput() {
     var isValid = validateForm();
     var bloodValid = bloodCheck();
     var emailValid = checkEmail();
+    var locationValid = locationCheck();
     checkBox();
     if (isValid == false) {
         swal('Campo em Branco', 'Todos os campos são obrigatórios', 'error')
         event.preventDefault();
-    } else if (bloodValid == false) {
+    } else if (locationValid == false) {
+        swal('Cidade', 'Selecione sua cidade para prosseguir', 'error')
+        event.preventDefault();
+        } else if (bloodValid == false) {
         swal('Tipo Sanguíneo', 'Selecione seu tipo sanguíneo para prosseguir', 'error')
         event.preventDefault();
     } else if (emailValid == false) {
@@ -151,5 +155,13 @@ function checkBox() {
         isChecked[0] = false;
     } else {
         isChecked[0] = true;
+    }
+}
+
+function locationCheck() {
+    if (document.getElementById("location").value == "Cidade") {
+        return false
+    } else {
+        return true
     }
 }

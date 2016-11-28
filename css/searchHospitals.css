@@ -1,0 +1,22 @@
+.container {
+    width: 50%;
+    margin-left: 32%;
+}
+
+body > div > div > div > figure > img {
+    border-radius: 3%;
+}
+
+body > div > div {
+    color: white;
+}
+
+body > div > div > div > figure {
+	padding: 20px;
+}
+
+body > div > p {
+	margin-bottom: 6%;
+	font-size: 2em;
+	color: white;
+}

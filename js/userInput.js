@@ -2,8 +2,12 @@ function userInput() {
     var isValid = validateForm();
     var bloodValid = bloodCheck();
     var emailValid = checkEmail();
+    var locationValid = locationCheck();
     if (isValid == false) {
         swal('Campo em Branco', 'Todos os campos são obrigatórios', 'error')
+        event.preventDefault();
+    } else if (locationValid == false) {
+        swal('Cidade', 'Selecione sua cidade para prosseguir', 'error')
         event.preventDefault();
     } else if (bloodValid == false) {
         swal('Tipo Sanguíneo', 'Selecione seu tipo sanguíneo para prosseguir', 'error')
@@ -70,7 +74,7 @@ function pushId(userData, userId) {
 }
 //Functions to valdiate the form
 function validateForm() {
-    if (document.getElementsByTagName("input")[0].value == "" || document.getElementsByTagName("input")[1].value == "" || document.getElementsByTagName("input")[2].value == "" || document.getElementsByTagName("input")[3].value == "" || document.getElementsByTagName("input")[4].value == "") {
+    if (document.getElementsByTagName("input")[0].value == "" || document.getElementsByTagName("input")[1].value == "" || document.getElementsByTagName("input")[2].value == "" || document.getElementsByTagName("input")[3].value == "") {
         return false;
     } else {
         return true;
@@ -90,5 +94,13 @@ function checkEmail() {
         return true
     } else {
         return false
+    }
+}
+
+function locationCheck() {
+    if (document.getElementById("location").value == "Cidade") {
+        return false
+    } else {
+        return true
     }
 }
