@@ -323,7 +323,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="team-member">
-                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                        <img src="img/team/eric.jpg" class="img-responsive img-circle" alt="">
                         <h4>Eric Ribeiro</h4>
                         <p class="text-muted">Desenvolvedor</p>
                         <ul class="list-inline social-buttons">

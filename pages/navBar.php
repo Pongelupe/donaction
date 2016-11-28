@@ -37,14 +37,21 @@
                 <li id="donate">
                     <a href="#">
                         Agendar Doação
-                        <span class="pull-right hidden-xs showopacity glyphicon glyphicon-list-alt" style="font-size:16px;">
+                        <span class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar" style="font-size:16px;">
                         </span>
                     </a>
                 </li>
                 <li id="hospital">
                     <a href="searchHospitals.php">
                         Procurar Hospitais
-                        <span class="pull-right hidden-xs showopacity glyphicon glyphicon-list-alt" style="font-size:16px;">
+                        <span class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar" style="font-size:16px;">
+                        </span>
+                    </a>
+                </li>
+                    <li id="donate">
+                    <a href="#">
+                        Vá de Uber!
+                        <span class="pull-right hidden-xs showopacity fa fa-car" style="font-size:16px;">
                         </span>
                     </a>
                 </li>

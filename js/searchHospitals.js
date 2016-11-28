@@ -53,3 +53,7 @@ function hospitalText(userLocation) {
         document.getElementById("cityHospitals").innerHTML = "Hospital em " + userLocation;
     }
 }
+function endSession() {
+    localStorage.removeItem("userData");
+    location.href = ("../index.php");
+}
