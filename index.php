@@ -133,10 +133,10 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/newCompanies/Pucminas.jpg" class="img-responsive" alt="Pucminas">
+                        <img src="img/indexPage/Pucminas.jpg" class="img-responsive" alt="Pucminas">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Puc Minas</h4>
+                        <h4>PUC Minas</h4>
                         <p class="text-muted">Belo Horizonte</p>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/newCompanies/Microsoft.jpg" class="img-responsive" alt="Microsoft">
+                        <img src="img/indexPage/Microsoft.jpg" class="img-responsive" alt="Microsoft">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Microsoft</h4>
@@ -161,7 +161,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/newCompanies/Amazon.jpg"  class="img-responsive" alt="Amazon">
+                        <img src="img/indexPage/Amazon.jpg"  class="img-responsive" alt="Amazon">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Amazon</h4>
@@ -175,11 +175,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/newCompanies/Leitura.png" class="img-responsive" alt="Leitura">
+                        <img src="img/indexPage/Leitura.png" class="img-responsive" alt="Leitura">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Leitura</h4>
-                        <p class="text-muted">São Paulo</p>
+                        <p class="text-muted">Belo Horizonte</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -189,7 +189,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/newCompanies/Subway.jpg" class="img-responsive" alt="Subway">
+                        <img src="img/indexPage/Subway.jpg" class="img-responsive" alt="Subway">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Subway</h4>
@@ -203,7 +203,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/newCompanies/Nerdstore.png" class="img-responsive" alt="Nerdstore">
+                        <img src="img/indexPage/Nerdstore.png" class="img-responsive" alt="Nerdstore">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Nerdstore</h4>

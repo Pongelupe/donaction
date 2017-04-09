@@ -16,13 +16,13 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Inverno Cruz</h2>
+                                <h2>PUC Minas</h2>
                                 <p class="item-intro text-muted">Belo Horizonte</p>
-                                <img class="img-responsive img-centered img-rounded" src="img/newHospitals/hospital1.jpg" alt="Hospital Inverno Cruz" width="40%" height="40%">
-                                <p>O hospital Inverno Cruz vem desde 1998 salvando vidas em Belo Horizonte. Em 2007 recebeu o prêmio JS devido à tremenda dedicação aos pacientes.</br> Em janeiro de 2013, foi  pioneiro na implementação de novas tecnologias apoiando a Bloody PUT.</p>
+                                <img class="img-responsive img-centered img-rounded" src="img/indexPage/Pucminas.jpg" alt="PUC Minas" width="40%" height="40%">
+                                <p>A Pontifícia Universidade Católica de Minas Gerais vem desde 1958 formando pessoas em Belo Horizonte. É atualmente tida como uma das melhores universidades privadas do Brasil, tendo sido eleita a melhor universidade privada do país em anos consecutivos pela revista Guia do Estudante da Editora Abril.</p>
                                 <ul class="list-inline">
-                                    <li>Desde Janeiro 2013</li>
-                                    <li><a href="#">Sobre o hospital</a></li>
+                                    <li>Em parceria com a Donaction desde março de 2017.</li>
+                                    <li><a href="http://www.pucminas.br/" target="_blank">Sobre a empresa</a></li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Voltar</button>
                             </div>
@@ -47,13 +47,13 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Felício Vermelho</h2>
-                                <p class="item-intro text-muted">Belo Horizonte</p>
-                                <img class="img-responsive img-centered img-rounded" src="img/newHospitals/hospital2.jpg" alt="Hospital Félicio Vermelho" width="40%" height="40%">
-                                <p> O hospital Félicio Vermelho em Belo Horizonte vem atendendo pacientes desde 1927,sendo o hospital brasileiro mais tradicional em parceria com a Bloody PUT.Parceria que se vem desde o princípio do ano de 2016.</p>
+                                <h2>Microsoft</h2>
+                                <p class="item-intro text-muted">Redmond, Washington, EUA</p>
+                                <img class="img-responsive img-centered img-rounded"  src="img/indexPage/Microsoft.jpg" alt="Microsoft" width="40%" height="40%">
+                                <p> Fundada em 4 de abril de 1974 em Albuquerque por Bill Gates e Paul Allen a Microsoft é uma empresa inovadora que mudou a história com as suas tecnologias, atualmente é uma das maiores influenciadoras no ramo de TI e uma das maiores empresas do mundo.</p>
                                 <ul class="list-inline">
-                                    <li>Desde Março 2016</li>
-                                    <li><a href="#">Sobre o hospital</a></li>
+                                    <li>Em parceria com a Donaction desde abril de 2017.</li>
+                                    <li><a href="https://www.microsoft.com/pt-br" target="_blank">Sobre a empresa</a></li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Voltar</button>
                             </div>
@@ -79,13 +79,13 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Salvação de Jesus</h2>
-                                <p class="item-intro text-muted">São Paulo</p>
-                                <img class="img-responsive img-centered img-rounded" src="img/newHospitals/hospital3.jpg" alt="Hospital Salvação de Jesus" width="40%" height="40%">
-                                <p> O hospital Salvação de Jesus vem atendendo pacientes desde 1985, a instituição não cobra pelos serviços e é sustentada pela Igreja. Salvação de Jesus foi o primeiro parceiro da Bloody PUT fora do San Pedro Valley, é um forte laço desde outubro de 2015</p>
+                                <h2>Amazon</h2>
+                                <p class="item-intro text-muted">Seattle, Washington, EUA</p>
+                                <img class="img-responsive img-centered img-rounded" src="img/indexPage/Amazon.jpg" alt="Amazon" width="40%" height="40%">
+                                <p> Fundada em 05 de julho de 1994 por Jeff Bezos a Amazon tem sido uma das empresas pioneiras em E-commerce se espalhando para várias regiões no mundo.</p>
                                 <ul class="list-inline">
-                                    <li>Desde Outubro de 2015</li>
-                                    <li><a href="#">Sobre o hospital</a></li>
+                                    <li>Em parceria com a Donaction desde abril de 2017.</li>
+                                    <li><a href="https://www.amazon.com.br" target="_blank">Sobre a empresa</a></li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Voltar</button>
                             </div>
@@ -111,13 +111,13 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Serio Dinamarquês</h2>
-                                <p class="item-intro text-muted">São Paulo</p>
-                                <img class="img-responsive img-centered img-rounded" src="img/newHospitals/hospital4.jpg" alt="Hospital Serio Dinamarquês" width="40%" height="40%">
-                                <p> O hospital Serio Dinamarquês carrega a medicina dinamarquesa e sueca nas terras de São Paulo, desde 1945. O hospital é especializado em tratar de ferimentos causado por lâminas ou perfurações. O hospital detém o maior número de pacientes que necessitam de transfusão no Estado. Está em parceira com a Bloody Put desde o natal de 2015.</p>
+                                <h2>Leitura</h2>
+                                <p class="item-intro text-muted">Belo Horizonte</p>
+                                <img class="img-responsive img-centered img-rounded" src="img/indexPage/Leitura.png" alt="Leitura" width="40%" height="40%">
+                                <p> Fundada em 1967 por Emídio Teles com o nome de livraria Lê a Leitura atualmente é uma das maiores redes de livraria do país contando com diversas lojas em 18 estados diferentes.</p>
                                 <ul class="list-inline">
-                                    <li>Desde Dezembro de 2015</li>
-                                    <li><a href="#">Sobre o hospital</a></li>
+                                    <li>Em parceria com a Donaction desde Abril de 2017.</li>
+                                    <li><a href="http://leitura.com/" target="_blank">Sobre a empresa</a></li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Voltar</button>
                             </div>
@@ -143,13 +143,13 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>JC's City Hospital</h2>
-                                <p class="item-intro text-muted">Jacksonville Capital, EUA</p>
-                                <img class="img-responsive img-centered img-rounded" src="img/newHospitals/hospital5.jpg"" width="40%" height="40%" alt="JC's City Hospital">
-                                <p> JC's City Hospital em North Savanna atende as crianças carentes da região interiorana do Missouri desde 2001.É mantida por filantropia de grupos como YMCA e C#, e atende em média 200 crianças por dia. Essa forte parceria foi a primeira no âmbito internacional para a Bloody PUT, em junho de 2016.</p>
+                                <h2>Subway</h2>
+                                <p class="item-intro text-muted">Milford, Connecticut, EUA</p>
+                                <img class="img-responsive img-centered img-rounded" src="img/indexPage/Subway.jpg" width="40%" height="40%" alt="Subway">
+                                <p>Fundada em 1965 por Fred De Luca e Peter Buck é considerada a rede de franquias que cresceu mais depressa no mundo. Atualmente é considerada a maior cadeia de restaurantes do mundo com mais de 44 mil restaurantes espalhados por 98 países.</p>
                                 <ul class="list-inline">
-                                    <li>Desde Junho de 2016</li>
-                                    <li><a href="#">Sobre o hospital</a></li>
+                                    <li>Em parceria com a Donaction desde abril de 2017.</li>
+                                    <li><a href="http://www.subway.com/pt-br" target="_blank">Sobre a empresa</a></li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Voltar</button>
                             </div>
@@ -175,13 +175,13 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Viridiano's Pokecenter</h2>
-                                <p class="item-intro text-muted">Viridiano, Japão</p>
-                                <img class="img-responsive img-centered img-rounded" src="img/newHospitals/hospital6.jpg" alt="PokeCenter" height="40%" width="40%">
-                                <p> Pokecenter de Viridiano é o mais forte hospital da região, atende frequentemente locais e estrangeiros devido os ataques frequentes de animais perigosos na Floresta de Viridiano. É a primeira parceria da Blood PUT no oriente, desde setembro de 2016.</p>
+                                <h2>Nerdstore</h2>
+                                <p class="item-intro text-muted">Curitiba</p>
+                                <img class="img-responsive img-centered img-rounded" src="img/indexPage/Nerdstore.png" alt="Nerdstore" height="40%" width="40%">
+                                <p>Fundada em 2002 por Alexandre Ottoni e Deive Pazos os criadores do blog Jovem Nerd, a Nerdstore é uma loja especializada em vender produtos de cultura Geek para todo o país.</p>
                                 <ul class="list-inline">
-                                    <li>Desde Setembro de 2016</li>
-                                    <li><a href="#">Sobre o hospital</a></li>
+                                    <li>Em parceria com a Donaction desde abril de 2017.</li>
+                                    <li><a href="http://www.nerdstore.com.br/" target="_blank">Sobre a empresa</a></li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Voltar</button>
                             </div>
