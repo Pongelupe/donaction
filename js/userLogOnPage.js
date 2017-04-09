@@ -1,29 +1,20 @@
 var canDonate = ["", "", "", ""];
-var isChecked = [];
 
 function userInput() {
-    checkBox();
-    if (validateForm()) {
-        swal('Campo em Branco', 'Todos os campos são obrigatórios', 'error')
-        event.preventDefault();
-    } else if (bloodCheck()) {
-        swal('Tipo Sanguíneo', 'Selecione seu tipo sanguíneo para prosseguir', 'error')
-        event.preventDefault();
-    } else if (isChecked[0] == false || isChecked[1] == false || isChecked[2] == false || isChecked[3] == false) {
-        event.preventDefault();
-    } else {
         var userName = document.getElementById('name').value;
         var userEmail = document.getElementById('email').value;
-        var userPhone = document.getElementById('phone').value;
-        var userLocation = document.getElementById('location').value;
+        var userLocation = document.getElementById('city').value;
         var userBlood = document.getElementById('bloody').value;
         var userDonator = toDonate();
+        if(!validateForm()){
+            sweetAlert("Formulário inválido!", "Preencha todos os campos!", "error");
+        }
+        else{
         // Array's declaration and values assignement
         var userData = {};
         userData.id = "";
         userData.userName = userName;
         userData.userEmail = userEmail;
-        userData.userPhone = userPhone;
         userData.userLocation = userLocation;
         userData.userBlood = userBlood;
         userData.canDonate = userDonator;
@@ -71,8 +62,18 @@ function pushId(userData, userId) {
     });
 }
 
-function checkbox_config(x, y) {
-    canDonate[y] = x;
+function checkbox_config(status, posicao, clicado) {
+    var a = posicao*2;
+    alterCheckbox(a,a+1,clicado);
+    canDonate[posicao] = status;
+}
+
+function alterCheckbox(a,b,clicado){
+    if (clicado % 2 == 0){
+        document.getElementsByName("checkbox")[b].checked = false;
+    } else{
+        document.getElementsByName("checkbox")[a].checked = false;
+    }
 }
 
 function toDonate() {
@@ -86,56 +87,19 @@ function toDonate() {
 }
 //Functions to valdiate the form
 function validateForm() {
-    if (document.getElementsByTagName("input")[0].value == "" || document.getElementsByTagName("input")[1].value == "" || document.getElementsByTagName("input")[2].value == "" || document.getElementsByTagName("input")[3].value == "" || document.getElementsByTagName("input")[4].value == "") {
+    if (document.getElementsByTagName("input")[0].value == "" || document.getElementsByTagName("input")[1].value == "" || document.getElementsByTagName("input")[2].value == "" || document.getElementById('bloody').value =='Tipo Sanguíneo' || !validateCheckBox(7)) {
         return false;
     } else {
         return true;
     }
 }
 
-function bloodCheck() {
-    if (document.getElementById("bloody").value == "Tipo Sanguíneo") {
-        return false;
-    } else {
-        return true;
+function validateCheckBox(numeroDeCheckBox) {
+    for (var i = numeroDeCheckBox; i > 0; i =- 2) {
+        if (document.getElementsByName("checkbox")[i].checked == false && document.getElementsByName("checkbox")[(i-1)].checked == false){
+            return false
+        }
     }
+    return true;
 }
 
-function checkBox() {
-    if (document.getElementsByName("checkbox")["6"].checked == false && document.getElementsByName("checkbox")["7"].checked == false) {
-        swal('Tatuagem nos últimos meses?', 'Responda o questionário para continuar', 'error')
-        isChecked[3] = false;
-    } else if (document.getElementsByName("checkbox")["6"].checked == true && document.getElementsByName("checkbox")["7"].checked == true) {
-        swal('Tatuagem nos últimos meses?', 'Selecione somente uma opção', 'error')
-        isChecked[3] = false;
-    } else {
-        isChecked[3] = true;
-    }
-    if (document.getElementsByName("checkbox")["4"].checked == false && document.getElementsByName("checkbox")["5"].checked == false) {
-        swal('Faz uso de drogas injetáveis?', 'Responda o questionário para continuar', 'error')
-        isChecked[2] = false;
-    } else if (document.getElementsByName("checkbox")["4"].checked == true && document.getElementsByName("checkbox")["5"].checked == true) {
-        swal('Faz uso de drogas injetáveis?', 'Selecione somente uma opção', 'error')
-        isChecked[2] = false;
-    } else {
-        isChecked[2] = true;
-    }
-    if (document.getElementsByName("checkbox")["2"].checked == false && document.getElementsByName("checkbox")["3"].checked == false) {
-        swal('Já teve malária?', 'Responda o questionário para continuar', 'error');
-        isChecked[1] = false;
-    } else if (document.getElementsByName("checkbox")["2"].checked == true && document.getElementsByName("checkbox")["3"].checked == true) {
-        swal('Já teve malária?', 'Selecione somente uma opção', 'error')
-        isChecked[1] = false;
-    } else {
-        isChecked[1] = true;
-    }
-    if (document.getElementsByName("checkbox")["0"].checked == false && document.getElementsByName("checkbox")["1"].checked == false) {
-        swal('Tem, no mínimo, 50Kg?', 'Responda o questionário para continuar', 'error');
-        isChecked[0] = false;
-    } else if (document.getElementsByName("checkbox")["0"].checked == true && document.getElementsByName("checkbox")["1"].checked == true) {
-        swal('Tem, no mínimo, 50Kg?', 'Selecione somente uma opção', 'error')
-        isChecked[0] = false;
-    } else {
-        isChecked[0] = true;
-    }
-}
