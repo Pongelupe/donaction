@@ -54,7 +54,7 @@
                         <a class="page-scroll" href="#portfolio">Parceiros</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">História</a>
+                        <a class="page-scroll" href="#about">Como validar seu Voucher</a>
                     </li>
                     <li>
                         <!-- Include of the modal -->
@@ -93,24 +93,24 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-user-o fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Cadastro</h4>
-                    <p class="text-muted">O primeiro passo é realizar o cadastro no site como doador ou receptor, lembrando que é importante responder corretamente e lembrar dos seus dados.</p>
+                    <h4 class="service-heading">Participar da campanha</h4>
+                    <p class="text-muted">O primeiro passo é participar das campanhas de doação que a Donaction oferece para incentivar o bem!</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-bar-chart fa-stack-1x fa-inverse"></i>
+                        <i class="glyphicon glyphicon-ok fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Onde há urgência?</h4>
-                    <p class="text-muted">Depois nós vamos usar nossos poderes matemágicos para encontrar pessoas com o mesmo tipo sanguíneo perto de você e te avisaremos.</p>
+                    <h4 class="service-heading">Retirar o voucher</h4>
+                    <p class="text-muted">Depois de doar é só pegar o código que o centro de coleta te dará e desfrutar de descontos incríveis!</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-heart-o fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Menos Burocracia</h4>
-                    <p class="text-muted">Pronto! Agora só falta ir no posto de coleta combinado para trabalhar os detalhes, marcar a coleta ou a transfusão e levar uma vida saudável.</p>
+                    <h4 class="service-heading">Indicar os amigos</h4>
+                    <p class="text-muted">Pronto! Se você gostou de ajudar os outros indique seus amigos para continuar a espalhar e fortalecer esta corrente do bem!</p>
                 </div>
             </div>
         </div>
@@ -219,7 +219,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">História</h2>
+                    <h2 class="section-heading">Como validar seu Voucher:</h2>
                     <h3 class="section-subheading text-muted"></h3>
                     <h2 class="section-subheading">2016</h2>
                     </br>
@@ -297,64 +297,10 @@
         </div>
     </section>
 
-    <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Desenvolvedores</h2>
-                    <h3 class="section-subheading text-muted"></h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="team-member">
-                        <img src="img/team/eric.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Eric Ribeiro</h4>
-                        <p class="text-muted">Desenvolvedor</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-telegram"></i></a>
-                            </li>
-                            <li><a href="https://github.com/EricRibeiro "><i class="fa fa-github"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="team-member">
-                        <img src="img/team/pedro.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Pedro Pongelupe</h4>
-                        <p class="text-muted">Desenvolvedor</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="https://github.com/Pongelupe"><i class="fa fa-github"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Agradeçemos aos envolvidos, à PUC Minas, à Microsoft, à TOTVS, ao Guilherme e Ednaldo Pereira.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Clients Aside -->
     <aside class="clients">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/puc_logo.jpg" class="img-responsive img-centered" alt="PUC Minas">
-                    </a>
-                </div>
                 <div class="col-md-4 col-sm-6">
                     <a href="#">
                         <img src="img/logos/microsoft_logo.png" class="img-responsive img-centered" alt="Microsoft">
@@ -362,7 +308,13 @@
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <a href="#">
-                        <img src="img/logos/totvs_logo.png" class="img-responsive img-centered" alt="TOTVS">
+                        <img src="img/logos/puc_logo.jpg" class="img-responsive img-centered" alt="PUC Minas">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/azure_logo.png" class="img-responsive img-centered" alt="Azure
+                        ">
                     </a>
                 </div>
             </div>
@@ -374,14 +326,6 @@
             <div class="row">
                 <div class="col-md-6">
                     <span class="copyright">Copyright &copy; Donaction 2017</span>
-                </div>
-                <div class="col-md-6">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>
