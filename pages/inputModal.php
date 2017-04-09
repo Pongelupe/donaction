@@ -45,7 +45,7 @@
                 </div>
 
                 <div class="col-lg-12">
-                  <button onclick="location.href = 'pages/receptorForm.html';" class="btn btn-primary btn-sm">Cadastrar</button>
+                  <button onclick="location.href = '#';" class="btn btn-primary btn-sm">Cadastrar</button>
                 </div>
 
               </div> <!-- Row -->

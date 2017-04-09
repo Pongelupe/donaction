@@ -30,7 +30,6 @@
 </head>
 
 <body id="page-top" class="index">
-
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container">
@@ -57,10 +56,6 @@
                     <li>
                         <a class="page-scroll" href="#about">História</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Time</a>
-                    </li>
-                   
                     <li>
                         <!-- Include of the modal -->
                         <?php include 'pages/modalLogin.php'; ?> 
