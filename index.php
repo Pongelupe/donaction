@@ -121,8 +121,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Hospitais Parceiros</h2>
-                    <h3 class="section-subheading text-muted">Esses hospitais abriram as portas para a Bloody PUT!</h3>
+                    <h2 class="section-heading">Empresas Parceiras</h2>
+                    <h3 class="section-subheading text-muted">Essas empresas abriram as portas para a Donaction!</h3>
                 </div>
             </div>
             <div class="row">
@@ -133,10 +133,10 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/newCompanies/Pucminas.jpg" class="img-responsive" alt="Inverno Cruz">
+                        <img src="img/newCompanies/Pucminas.jpg" class="img-responsive" alt="Pucminas">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Inverno Cruz</h4>
+                        <h4>Puc Minas</h4>
                         <p class="text-muted">Belo Horizonte</p>
                     </div>
                 </div>
@@ -147,11 +147,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/newCompanies/Microsoft.jpg" class="img-responsive" alt="Felício Vermelho">
+                        <img src="img/newCompanies/Microsoft.jpg" class="img-responsive" alt="Microsoft">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Felício Vermelho</h4>
-                        <p class="text-muted">Belo Horizonte</p>
+                        <h4>Microsoft</h4>
+                        <p class="text-muted">Redmond, Washington, EUA</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -161,11 +161,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/newCompanies/Amazon.jpg"  class="img-responsive" alt="Salvação de Jesus">
+                        <img src="img/newCompanies/Amazon.jpg"  class="img-responsive" alt="Amazon">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Salvação de Jesus</h4>
-                        <p class="text-muted">São Paulo</p>
+                        <h4>Amazon</h4>
+                        <p class="text-muted">Seattle, Washington, EUA</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -175,10 +175,10 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/newCompanies/Leitura.png" class="img-responsive" alt="Serio Dinamarquês">
+                        <img src="img/newCompanies/Leitura.png" class="img-responsive" alt="Leitura">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Serio Dinamarquês</h4>
+                        <h4>Leitura</h4>
                         <p class="text-muted">São Paulo</p>
                     </div>
                 </div>
@@ -189,11 +189,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/newCompanies/Subway.jpg" class="img-responsive" alt="JC's City Hospital">
+                        <img src="img/newCompanies/Subway.jpg" class="img-responsive" alt="Subway">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>JC's City Hospital</h4>
-                        <p class="text-muted">Jacksonville Capital, EUA</p>
+                        <h4>Subway</h4>
+                        <p class="text-muted">Milford, Connecticut, EUA</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -203,11 +203,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/newCompanies/Nerdstore.png" class="img-responsive" alt="Viridiano's Pokecenter">
+                        <img src="img/newCompanies/Nerdstore.png" class="img-responsive" alt="Nerdstore">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Viridiano's Pokecenter</h4>
-                        <p class="text-muted">Viridiano, Japão</p>
+                        <h4>Nerdstore</h4>
+                        <p class="text-muted">Curitiba</p>
                     </div>
                 </div>
             </div>
