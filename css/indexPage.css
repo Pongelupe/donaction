@@ -1,0 +1,174 @@
+header {
+    background-image: url(../img/custom/headerImage.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.loginmodal-container {
+    margin-top: 24%;
+}
+
+.timeline > li .timeline-image {
+    background-color: #444444;
+}
+
+#inputModal > div {
+    margin-top: 7%;
+}
+
+#inputModal > div > div {
+    background-color: #444444;
+}
+
+#inputModal > div > div > div.modal-body > div > div > div:nth-child(1) > div > div:nth-child(1) > p , #inputModal > div > div > div.modal-body > div > div > div:nth-child(2) > div > div:nth-child(1) > p  {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    color: white;
+}
+
+#inputModal > div > div > div.modal-body > div > div > div:nth-child(1) > div > div:nth-child(2) > figure > img {
+    margin: 0 0 0 7%;
+}
+
+#inputModal > div > div > div.modal-body > div > div > div:nth-child(2) > div > div:nth-child(2) > figure > img {
+    margin: 0 0 0 16%;
+}
+
+#inputModal > div > div > div.modal-body > div > div > div:nth-child(1) > div > div:nth-child(3) > button {
+    margin: 10% 0 0 12%;
+}
+
+#inputModal > div > div > div.modal-body > div > div > div:nth-child(2) > div > div:nth-child(3) > button {
+    margin: 10% 0 0 21%;
+}
+
+#page-top > div.modal-backdrop.fade.in {
+    z-index: 0;
+}
+
+#inputModal > div > div > div.modal-body {
+    padding: 6%;
+}
+
+#inputModal > div > div > div.modal-header > a {
+    text-decoration: none;
+    float: right;
+}
+
+#inputModal > div > div > div.modal-header > a::before {
+    color: white;
+}
+
+#mainNav > div > div.navbar-header.page-scroll > a {
+
+    color: #ff3030;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+#mainNav > div > div.navbar-header.page-scroll > a:hover {
+    color: #B10000;
+}
+
+#page-top > header > div > div > button {
+
+    background: #ff3030;
+    border-color: #ff3030;
+
+}
+
+#page-top > header > div > div > button:hover {
+
+    background: #B10000;
+    border-color: #B10000;
+}
+
+
+#bs-example-navbar-collapse-1 > ul > li> a:hover{
+
+    color: #ff3030;
+}
+
+.navbar-custom .navbar-nav>.active>a {
+
+    background: #ff3030;
+    border-color: #ff3030;   
+}
+
+.navbar-custom .navbar-nav>.active>a:hover {
+
+    color: #fff !important;
+    background: #B10000;
+    border-color: #B10000;   
+}
+
+#portfolio > div > div:nth-child(2) > div:nth-child(1) > a > div:hover{
+
+    background: #ff3030;
+    border-color: #ff3030;
+
+}
+
+#portfolio > div > div:nth-child(2) > div:nth-child(2) > a > div:hover{
+
+    background: #ff3030;
+    border-color: #ff3030;
+
+}
+
+#portfolio > div > div:nth-child(2) > div:nth-child(3) > a > div:hover{
+
+    background: #ff3030;
+    border-color: #ff3030;
+
+}
+
+#portfolio > div > div:nth-child(2) > div:nth-child(4) > a > div:hover{
+
+    background: #ff3030;
+    border-color: #ff3030;
+
+}
+
+#portfolio > div > div:nth-child(2) > div:nth-child(5) > a > div:hover{
+
+    background: #ff3030;
+    border-color: #ff3030;
+
+}
+
+#portfolio > div > div:nth-child(2) > div:nth-child(6) > a > div:hover{
+
+    background: #ff3030;
+    border-color: #ff3030;
+
+}
+
+#page-top > footer > div > div > div:nth-child(2) > ul > li > a{
+
+    color: #ff3030;
+}
+
+#page-top > footer > div > div > div:nth-child(2) > ul > li > a:hover{
+
+    color: #B10000;
+}
+
+#services > div > div.row.text-center > div:nth-child(1) > span > i.fa.fa-circle.fa-stack-2x.text-primary{
+    color: #ff3030;
+}
+
+#services > div > div.row.text-center > div:nth-child(2) > span > i.fa.fa-circle.fa-stack-2x.text-primary{
+    color: #ff3030;
+}
+
+#services > div > div.row.text-center > div:nth-child(3) > span > i.fa.fa-circle.fa-stack-2x.text-primary{
+    color: #ff3030;
+}

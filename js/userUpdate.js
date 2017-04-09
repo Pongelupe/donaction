@@ -91,7 +91,7 @@ function classActive() {
     if (currentPage == "userPage.php") {
         document.getElementsByTagName("li")[0].className = "active";
     }
-    if (currentPage == "userInfoPage.php") {
+    if (currentPage == "userPageInfo.php") {
         document.getElementsByTagName("li")[1].className = "active";
     }
     if (currentPage == "searchHospitals.php") {

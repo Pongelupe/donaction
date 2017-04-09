@@ -28,14 +28,14 @@
                     </a>
                 </li>
                 <li>
-                    <a href="userInfoPage.php">
+                    <a href="userPageInfo.php">
                         Dados de Cadastro
                         <span class="pull-right hidden-xs showopacity glyphicon glyphicon-user" style="font-size:16px;">
                         </span>
                     </a>
                 </li>
                 <li id="donate">
-                    <a href="#">
+                    <a href="userPageHistory.php">
                         Histórico de Doações
                         <span class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar" style="font-size:16px;">
                         </span>
@@ -45,13 +45,6 @@
                     <a href="searchHospitals.php">
                         Procurar Hospitais
                         <span class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar" style="font-size:16px;">
-                        </span>
-                    </a>
-                </li>
-                    <li id="donate">
-                    <a href="#">
-                        Vá de Uber!
-                        <span class="pull-right hidden-xs showopacity fa fa-car" style="font-size:16px;">
                         </span>
                     </a>
                 </li>
@@ -67,11 +60,6 @@
                         <li>
                             <a href="#">
                                 Saiba mais
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Ajude financeiramente
                             </a>
                         </li>
                         <li>
