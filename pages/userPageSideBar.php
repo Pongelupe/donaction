@@ -48,13 +48,6 @@
                         </span>
                     </a>
                 </li>
-                    <li id="donate">
-                    <a href="#">
-                        Vá de Uber!
-                        <span class="pull-right hidden-xs showopacity fa fa-car" style="font-size:16px;">
-                        </span>
-                    </a>
-                </li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                         Opções
@@ -67,11 +60,6 @@
                         <li>
                             <a href="#">
                                 Saiba mais
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Ajude financeiramente
                             </a>
                         </li>
                         <li>

@@ -8,7 +8,7 @@
 
     <!-- CSS's imports -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="../css/receptorForm.css" rel="stylesheet" />
+    <link href="../css/userPageLogOn.css" rel="stylesheet" />
     <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
     <link href="../css/userPage.css" rel="stylesheet" />
     <link href="../css/navBar.css" rel="stylesheet" type="text/css" />
