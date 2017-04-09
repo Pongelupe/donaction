@@ -75,7 +75,7 @@
                                     </span>
                                 </h3>
                                 <p class="narrow text-center">
-                                    Como um agradecimento preparamos várias surpresas, é só ir doar ou indicar um amigo para doação e vir receber. Vai passando para saber mais :D
+                                    Como agradecimento preparamos várias surpresas, é só ir doar ou indicar um amigo para doação e vir receber. Vai passando para saber mais :D
                                 </p>
                                 <p class="text-center">
                                     <a class="btn btn-success btn-outline-rounded green" href="http://localhost/donaction/pages/userPageHistory.php#profile">
@@ -90,7 +90,7 @@
                                    Essas aqui são as suas doações
                                 </h3>
                                 <p class="narrow text-center">
-                                   Poxa, você ainda não doou :(.. Vai lá, tem alguém precisando muito! Depois é só voltar pra receber seu super presente de agradecimento.
+                                   Poxa, você ainda não doou :(.. Vai lá, tem alguém precisando muito! Depois é só voltar para receber seu super presente de agradecimento.
                                 </p>
                                 <p class="text-center">
                                     <a class="btn btn-success btn-outline-rounded green" href="">
@@ -137,14 +137,10 @@
                                     </i>
                                 </div>
                                 <h3 class="head text-center">
-                                    thanks for staying tuned!
-                                    <span style="color:#f48260;">
-                                        ♥
-                                    </span>
-                                    Bootstrap
+                                    Mandou Bem!
                                 </h3>
                                 <p class="narrow text-center">
-                                    Lorem ipsum dolor sit amet, his ea mollis fabellas principes. Quo mazim facilis tincidunt ut, utinam saperet facilisi an vim.
+                                    Com a sua ajuda vidas foram salvas, 
                                 </p>
                             </div>
                             <div class="clearfix">

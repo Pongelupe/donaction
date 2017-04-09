@@ -214,7 +214,7 @@ p.narrow.text-center {
     color: black;
 }
 
-@media( max-width: 585px) {
+@media( max-width: 1185px) {
     .board {
         width: 90%;
         height: auto !important;

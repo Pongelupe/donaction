@@ -47,16 +47,11 @@
   </body>
 </html>
 
-<script src="../vendor/jquery/jquery.min.js">
-</script>
-<!-- Bootstrap Core JavaScript -->
-<script src="../vendor/bootstrap/js/bootstrap.min.js">
-</script>
-<!-- App JavaScript -->
-<script src="../js/userUpdate.js">
-</script>
-<!-- Nav Bar's js-->
-<script src="../js/userPageSideBar.js">
-</script>
+<!-- JavaScript's Files -->
+<script src="../vendor/jquery/jquery.min.js"></script>
+<script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="../js/userUpdate.js"></script>
+<script src="../js/userPageSideBar.js"></script>
+
 <!-- Include of the navBar -->
 <?php include 'userPageSideBar.php'; ?>
