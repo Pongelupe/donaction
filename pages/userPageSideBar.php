@@ -28,14 +28,14 @@
                     </a>
                 </li>
                 <li>
-                    <a href="userInfoPage.php">
+                    <a href="userPageInfo.php">
                         Dados de Cadastro
                         <span class="pull-right hidden-xs showopacity glyphicon glyphicon-user" style="font-size:16px;">
                         </span>
                     </a>
                 </li>
                 <li id="donate">
-                    <a href="#">
+                    <a href="userPageHistory.php">
                         Histórico de Doações
                         <span class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar" style="font-size:16px;">
                         </span>
