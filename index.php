@@ -73,9 +73,9 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Doe Sangue</div>
                 <div class="intro-heading">Você Pode Salvar Vidas</div>
-                <button type="button" class="btn btn-xl" data-toggle="modal" data-target="#inputModal">Cadastrar</button>
+                <button type="button" class="btn btn-xl" onclick="location.href = 'pages/donatorForm.html';">Cadastrar</button>
             </div>
-        </div>
+        </div>o
     </header>
 
     <!-- Services Section -->
