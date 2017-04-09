@@ -14,29 +14,29 @@
                 </span>
             </button>
             <a class="navbar-brand" href="#" style="color: tomato;">
-                BloodyPUT
+                Donaction
             </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="user.php">
+                    <a href="userPage.php">
                         Início
                         <span class="pull-right hidden-xs showopacity glyphicon glyphicon-home" style="font-size:16px;">
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a href="receptorInfo.php">
-                        Perfil
+                    <a href="userInfoPage.php">
+                        Dados de Cadastro
                         <span class="pull-right hidden-xs showopacity glyphicon glyphicon-user" style="font-size:16px;">
                         </span>
                     </a>
                 </li>
                 <li id="donate">
                     <a href="#">
-                        Agendar Doação
+                        Histórico de Doações
                         <span class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar" style="font-size:16px;">
                         </span>
                     </a>

@@ -88,10 +88,10 @@ function endSession() {
 
 function classActive() {
     var currentPage = location.href.split('/')[location.href.split('/').length - 1];
-    if (currentPage == "user.php") {
+    if (currentPage == "userPage.php") {
         document.getElementsByTagName("li")[0].className = "active";
     }
-    if (currentPage == "receptorInfo.php") {
+    if (currentPage == "userInfoPage.php") {
         document.getElementsByTagName("li")[1].className = "active";
     }
     if (currentPage == "searchHospitals.php") {

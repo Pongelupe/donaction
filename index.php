@@ -9,31 +9,22 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Bloody PUT</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <title>Donaction</title>
 
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
-
-    <!-- Theme CSS -->
-    <link href="css/agency.css" rel="stylesheet">
-
-    <!-- Modal CSS -->
+    <!-- CSS's files -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet"">
+    <link href="css/agency.min.css" rel="stylesheet">
     <link href="css/modalLogin.css" rel="stylesheet">
-
-    <!-- Sweet Alert CSS -->
     <link href="vendor/sweetalert/css/sweetalert.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
 
 </head>
@@ -48,7 +39,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Navegador</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Bloody PUT</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Donaction</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -387,7 +378,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <span class="copyright">Copyright &copy; Bloody PUT 2016</span>
+                    <span class="copyright">Copyright &copy; Donaction 2017</span>
                 </div>
                 <div class="col-md-6">
                     <ul class="list-inline quicklinks">
@@ -407,25 +398,12 @@
     <!-- Partner's Modal-->
     <?php include 'pages/indexModal.php';?>
 
-    <!-- jQuery -->
+    <!-- JavaScript's Files-->
     <script src="vendor/jquery/jquery.min.js"></script>
-    
-    <!-- User Login JavaScript -->
     <script src="js/userLogin.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-
-    <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
-
-    <!-- Sweet Alert JavaScript -->
     <script src="vendor/sweetalert/js/sweetalert.min.js"></script>
 
 </body>

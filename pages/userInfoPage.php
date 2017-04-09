@@ -8,13 +8,13 @@
         <!-- System's CSS -->
         <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
         <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="../css/receptorInfo.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/userPage.css" rel="stylesheet" type="text/css"/>
         <link href="../css/navBar.css" rel="stylesheet" type="text/css"/>
         <link href="../vendor/sweetalert/css/sweetalert.css" rel="stylesheet" type="text/css"/>
     </head>
     <body onload="userSession()">
         <!-- Include of the navBar -->
-        <?php include 'navBar.php';?>
+        <?php include 'userPageSideBar.php';?>
         <div class="container-fluid">
             <form class="register-form">
                 <div class="row row-centered">
@@ -96,7 +96,7 @@
         </script>
         <script src="../js/userUpdate.js">
         </script>
-        <script src="../js/navBar.js">
+        <script src="../js/userPageSideBar.js">
         </script>
         <script src="../vendor/sweetalert/js/sweetalert.min.js">
         </script>

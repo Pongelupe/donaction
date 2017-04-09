@@ -5,17 +5,17 @@
       Sessão de Usuário
     </title>
     <meta charset="utf-8"/>
-    <!-- Bootstrap Core CSS -->
-    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-    <!-- Theme CSS -->
-    <link href="../css/receptorForm.css" rel="stylesheet" type="text/css"/>
-    <!-- Font Awesome CSS -->
-    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-    <!-- Page CSS -->
-    <link href="../css/receptorInfo.css" rel="stylesheet" type="text/css"/>
-    <!-- Nav Bar's CSS-->
-    <link href="../css/navBar.css" rel="stylesheet" type="text/css"/>
+
+    <!-- CSS's imports -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/receptorForm.css" rel="stylesheet" />
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../css/userPage.css" rel="stylesheet" />
+    <link href="../css/navBar.css" rel="stylesheet" type="text/css" />
+    <link href="../css/userPageTable.css" rel="stylesheet" type="text/css" />
+
   </head>
+
   <body onload="userFirstSession()">
     <div class="container-fluid">
       <form class="register-form">
@@ -43,9 +43,10 @@
         </div>
       </form>
     </div>
+
   </body>
 </html>
-<!-- jQuery -->
+
 <script src="../vendor/jquery/jquery.min.js">
 </script>
 <!-- Bootstrap Core JavaScript -->
@@ -55,7 +56,7 @@
 <script src="../js/userUpdate.js">
 </script>
 <!-- Nav Bar's js-->
-<script src="../js/navBar.js">
+<script src="../js/userPageSideBar.js">
 </script>
 <!-- Include of the navBar -->
-<?php include 'navBar.php'; ?>
+<?php include 'userPageSideBar.php'; ?>
