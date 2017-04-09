@@ -133,7 +133,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/newHospitals/hospital1.jpg" class="img-responsive" alt="Inverno Cruz">
+                        <img src="img/newCompanies/Pucminas.jpg" class="img-responsive" alt="Inverno Cruz">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Inverno Cruz</h4>
@@ -147,7 +147,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/newHospitals/hospital2.jpg" class="img-responsive" alt="Felício Vermelho">
+                        <img src="img/newCompanies/Microsoft.jpg" class="img-responsive" alt="Felício Vermelho">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Felício Vermelho</h4>
@@ -161,7 +161,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/newHospitals/hospital3.jpg"  class="img-responsive" alt="Salvação de Jesus">
+                        <img src="img/newCompanies/Amazon.jpg"  class="img-responsive" alt="Salvação de Jesus">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Salvação de Jesus</h4>
@@ -175,7 +175,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/newHospitals/hospital4.jpg" class="img-responsive" alt="Serio Dinamarquês">
+                        <img src="img/newCompanies/Leitura.png" class="img-responsive" alt="Serio Dinamarquês">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Serio Dinamarquês</h4>
@@ -189,7 +189,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/newHospitals/hospital5.jpg" class="img-responsive" alt="JC's City Hospital">
+                        <img src="img/newCompanies/Subway.jpg" class="img-responsive" alt="JC's City Hospital">
                     </a>
                     <div class="portfolio-caption">
                         <h4>JC's City Hospital</h4>
@@ -203,7 +203,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/newHospitals/hospital6.jpg" class="img-responsive" alt="Viridiano's Pokecenter">
+                        <img src="img/newCompanies/Nerdstore.png" class="img-responsive" alt="Viridiano's Pokecenter">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Viridiano's Pokecenter</h4>
