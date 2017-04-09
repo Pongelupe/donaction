@@ -25,7 +25,7 @@
     <link href="css/agency.min.css" rel="stylesheet">
     <link href="css/modalLogin.css" rel="stylesheet">
     <link href="vendor/sweetalert/css/sweetalert.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/indexPage.css" rel="stylesheet">
 
 </head>
 
