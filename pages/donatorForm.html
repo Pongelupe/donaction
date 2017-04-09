@@ -20,11 +20,33 @@
         <!-- Main's JavaScript -->
         <script src="../js/userLogOnPage.js"></script>
 
+        <!-- FaceBook's API JavaScript -->
+        <script src="../js/facebookLoginAPI.js"></script>
+
         <!-- SweetAlert's JavaScript -->
         <script src="../vendor/sweetalert/js/sweetalert.min.js"></script>
 
     </head>
     <body>
+    <!-- script to allow the usage of Donaction Facebook's app-->
+    <script>
+            window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1722251574732793',
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+        </script>
         <header class="ccheader">
             <h1>Preencha com o seus dados</h1> 
         </header>
@@ -40,38 +62,10 @@
                     <span class="ccform-addon"><i class="fa fa-envelope fa-2x"></i></span>
                     <input class="ccformfield" type="text" id="email" placeholder="Email" required>
                 </div>
-
                 <div class="ccfield-prepend">
-                    <span class="ccform-addon"><i class="fa fa-envelope fa-2x"></i></span>
-                    <input class="ccformfield" type="text" id="emailConfirm" placeholder="Confirme o Email" required>
-                </div>
-
-                <div class="ccfield-prepend">
-                    <span class="ccform-addon"><i class="fa fa-mobile-phone fa-2x"></i></span>
-                    <input class="ccformfield" type="text" id="phone" placeholder="Telefone">
-                </div>
-
-               <div class="ccfield-prepend">
                     <span class="ccform-addon"><i class="fa fa-map-marker fa-2x"></i></span>
-                    <select class="ccformfield" id="location" title="Cidade">
-                        <option>
-                            Cidade
-                        </option>
-                        <option>
-                            Belo Horizonte
-                        </option>
-                        <option>
-                            São Paulo
-                        </option>
-                        <option>
-                            Jacksonville Capital
-                        </option>
-                        <option>
-                            Viridiano
-                        </option>
-                    </select>
+                    <input class="ccformfield" type="text" id="city" placeholder="Cidade">
                 </div>
-
                 <div class="ccfield-prepend">
                     <span class="ccform-addon"><i class="fa fa-tint fa-2x"></i></span>
                     <select class="ccformfield" id="bloody" title="Tipo Sanguíneo">
@@ -86,7 +80,13 @@
                         <option>O -</option>
                     </select>
                 </div>
-                
+                <div class="col-sm-offset-4 col-sm-10">
+                                <div>
+                                    <buttom class="btn btn-default" onclick="login()" type="button">
+                                        Preencher com o Facebook
+                                    </buttom>
+                                </div>
+                </div>
                 <div class="ccfield-prepend">  
                     <table class="table table-condensed">
                         <thead>

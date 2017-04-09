@@ -2,22 +2,12 @@ var canDonate = ["", "", "", ""];
 var isChecked = [];
 
 function userInput() {
-    var isValid = validateForm();
-    var bloodValid = bloodCheck();
-    var emailValid = checkEmail();
-    var locationValid = locationCheck();
     checkBox();
-    if (isValid == false) {
+    if (validateForm()) {
         swal('Campo em Branco', 'Todos os campos são obrigatórios', 'error')
         event.preventDefault();
-    } else if (locationValid == false) {
-        swal('Cidade', 'Selecione sua cidade para prosseguir', 'error')
-        event.preventDefault();
-        } else if (bloodValid == false) {
+    } else if (bloodCheck()) {
         swal('Tipo Sanguíneo', 'Selecione seu tipo sanguíneo para prosseguir', 'error')
-        event.preventDefault();
-    } else if (emailValid == false) {
-        swal('Confirme seu Email', 'Os emails inseridos não são iguais', 'error')
         event.preventDefault();
     } else if (isChecked[0] == false || isChecked[1] == false || isChecked[2] == false || isChecked[3] == false) {
         event.preventDefault();
@@ -111,14 +101,6 @@ function bloodCheck() {
     }
 }
 
-function checkEmail() {
-    if (document.getElementById('email').value == document.getElementById('emailConfirm').value) {
-        return true;
-    } else {
-        return false;
-    }
-}
-
 function checkBox() {
     if (document.getElementsByName("checkbox")["6"].checked == false && document.getElementsByName("checkbox")["7"].checked == false) {
         swal('Tatuagem nos últimos meses?', 'Responda o questionário para continuar', 'error')
@@ -155,13 +137,5 @@ function checkBox() {
         isChecked[0] = false;
     } else {
         isChecked[0] = true;
-    }
-}
-
-function locationCheck() {
-    if (document.getElementById("location").value == "Cidade") {
-        return false
-    } else {
-        return true
     }
 }
