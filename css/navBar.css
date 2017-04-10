@@ -147,3 +147,7 @@ nav:hover .forAnimate {
 section {
     padding-left: 15px;
 }
+
+#home > p.narrow.text-center {
+    margin-bottom: 30px;
+}

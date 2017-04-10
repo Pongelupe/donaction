@@ -57,7 +57,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a data-toggle="tab" href="#doner" title="completed">
+                                    <a data-toggle="tab" href="#doner" title="Pronto">
                                         <span class="round-tabs five">
                                             <i class="glyphicon glyphicon-ok">
                                             </i>
@@ -78,11 +78,7 @@
                                     Como agradecimento preparamos várias surpresas, é só ir doar ou indicar um amigo para doação e vir receber. Vai passando para saber mais :D
                                 </p>
                                 <p class="text-center">
-                                    <a class="btn btn-success btn-outline-rounded green" href="http://localhost/donaction/pages/userPageHistory.php#profile">
-                                        start using bootsnipp
-                                        <span class="glyphicon glyphicon-send" style="margin-left:10px;">
-                                        </span>
-                                    </a>
+                                    <img src="../img/userPageHistory/pints_for_life.png" width="180" height="95">
                                 </p>
                             </div>
                             <div class="tab-pane fade" id="donations">
@@ -90,14 +86,55 @@
                                    Essas aqui são as suas doações
                                 </h3>
                                 <p class="narrow text-center">
-                                   Poxa, você ainda não doou :(.. Vai lá, tem alguém precisando muito! Depois é só voltar para receber seu super presente de agradecimento.
-                                </p>
-                                <p class="text-center">
-                                    <a class="btn btn-success btn-outline-rounded green" href="">
-                                        create your profile
-                                        <span class="glyphicon glyphicon-send" style="margin-left:10px;">
-                                        </span>
-                                    </a>
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <!-- <h3 class="panel-title">Filtro:</h3> -->
+                                            <div class="pull-right">
+                                                <span class="clickable filter" data-toggle="tooltip" title="Toggle table filter" data-container="body">
+                                                    <i class="glyphicon glyphicon-filter"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="panel-body">
+                                            <input type="text" class="form-control" id="dev-table-filter" data-action="filter" data-filters="#dev-table" placeholder="Filtrar Campanhas" />
+                                        </div>
+                                        <table class="table table-hover" id="dev-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>#</th>
+                                                    <th>Campanha</th>
+                                                    <th>Realizador</th>
+                                                    <th>Dia</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Um Livro Amigo</td>
+                                                    <td>Leitura</td>
+                                                    <td>12/01/2017</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Esporte é Para Todos</td>
+                                                    <td>Centauro</td>
+                                                    <td>20/02/2017</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>Nerd Também Doa</td>
+                                                    <td>NerdStore</td>
+                                                    <td>05/03/2017</td>
+                                                </tr>
+                                                 <tr>
+                                                    <td>4</td>
+                                                    <td>Leva a Galera para Doar</td>
+                                                    <td>Cabify</td>
+                                                    <td>07/05/2017</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </p>
                             </div>
                             <div class="tab-pane fade" id="gifts">
@@ -124,7 +161,27 @@
                                     E para te mostrar isso nós reunimos uma galera que também pensa assim para disponibilizar umas coisas legais a medida que você aparece mais por aqui
                                 </p>
                                 <p class="text-center">
-                                    <!-- Funcionalidadae aqui -->
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                        <span class="progress-type">AMIGOS INDICADOS</span>
+                                        <span class="progress-completed">60%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                            <span class="sr-only">40% Complete (success)</span>
+                                        </div>
+                                        <span class="progress-type">DOAÇÕES POR SEMESTRE</span>
+                                        <span class="progress-completed">40%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                            <span class="sr-only">20% Complete (info)</span>
+                                        </div>
+                                        <span class="progress-type">RECOMPENSAS RECEBIDAS</span>
+                                        <span class="progress-completed">20%</span>
+                                    </div>
                                 </p>
                             </div>
                             <div class="tab-pane fade" id="doner">
@@ -136,7 +193,7 @@
                                     Mandou Bem!
                                 </h3>
                                 <p class="narrow text-center">
-                                    Com a sua ajuda vidas foram salvas, 
+                                    Com a sua ajuda, vidas foram salvas 
                                 </p>
                             </div>
                             <div class="clearfix">
