@@ -1,5 +1,5 @@
 header {
-    background-image: url(../img/custom/headerImage.png);
+    background-image: url(../img/indexPage/headerImage.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -151,16 +151,6 @@ header {
 
 }
 
-#page-top > footer > div > div > div:nth-child(2) > ul > li > a{
-
-    color: #ff3030;
-}
-
-#page-top > footer > div > div > div:nth-child(2) > ul > li > a:hover{
-
-    color: #B10000;
-}
-
 #services > div > div.row.text-center > div:nth-child(1) > span > i.fa.fa-circle.fa-stack-2x.text-primary{
     color: #ff3030;
 }
@@ -171,4 +161,136 @@ header {
 
 #services > div > div.row.text-center > div:nth-child(3) > span > i.fa.fa-circle.fa-stack-2x.text-primary{
     color: #ff3030;
+}
+
+#portfolioModal1 > div > div > div.container > div > div > div > ul > li:nth-child(2) > a{
+
+    color: #ff3030;
+}
+
+#portfolioModal1 > div > div > div.container > div > div > div > ul > li:nth-child(2) > a:hover{
+
+    color: #B10000;
+}
+
+#portfolioModal1 > div > div > div.container > div > div > div > button{
+
+    background: #ff3030;
+    border-color: #ff3030;
+}
+
+#portfolioModal1 > div > div > div.container > div > div > div > button:hover{
+
+    background: #B10000;
+    border-color: #B10000; 
+}
+
+#portfolioModal2 > div > div > div.container > div > div > div > ul > li:nth-child(2) > a{
+
+    color: #ff3030;
+}
+
+#portfolioModal2 > div > div > div.container > div > div > div > ul > li:nth-child(2) > a:hover{
+
+    color: #B10000;
+}
+
+#portfolioModal2 > div > div > div.container > div > div > div > button{
+
+    background: #ff3030;
+    border-color: #ff3030;
+}
+
+#portfolioModal2 > div > div > div.container > div > div > div > button:hover{
+
+    background: #B10000;
+    border-color: #B10000; 
+}
+
+#portfolioModal3 > div > div > div.container > div > div > div > ul > li:nth-child(2) > a{
+
+    color: #ff3030;
+}
+
+#portfolioModal3 > div > div > div.container > div > div > div > ul > li:nth-child(2) > a:hover{
+
+    color: #B10000;
+}
+
+#portfolioModal3 > div > div > div.container > div > div > div > button{
+
+    background: #ff3030;
+    border-color: #ff3030;
+}
+
+#portfolioModal3 > div > div > div.container > div > div > div > button:hover{
+
+    background: #B10000;
+    border-color: #B10000; 
+}
+
+#portfolioModal4 > div > div > div.container > div > div > div > ul > li:nth-child(2) > a{
+
+    color: #ff3030;
+}
+
+#portfolioModal4 > div > div > div.container > div > div > div > ul > li:nth-child(2) > a:hover{
+
+    color: #B10000;
+}
+
+#portfolioModal4 > div > div > div.container > div > div > div > button{
+
+    background: #ff3030;
+    border-color: #ff3030;
+}
+
+#portfolioModal4 > div > div > div.container > div > div > div > button:hover{
+
+    background: #B10000;
+    border-color: #B10000; 
+}
+
+#portfolioModal5 > div > div > div.container > div > div > div > ul > li:nth-child(2) > a{
+
+    color: #ff3030;
+}
+
+#portfolioModal5 > div > div > div.container > div > div > div > ul > li:nth-child(2) > a:hover{
+
+    color: #B10000;
+}
+
+#portfolioModal5 > div > div > div.container > div > div > div > button{
+
+    background: #ff3030;
+    border-color: #ff3030;
+}
+
+#portfolioModal5 > div > div > div.container > div > div > div > button:hover{
+
+    background: #B10000;
+    border-color: #B10000; 
+}
+
+#portfolioModal6 > div > div > div.container > div > div > div > ul > li:nth-child(2) > a{
+
+    color: #ff3030;
+}
+
+#portfolioModal6 > div > div > div.container > div > div > div > ul > li:nth-child(2) > a:hover{
+
+    color: #B10000;
+}
+
+#portfolioModal6 > div > div > div.container > div > div > div > button{
+
+    background: #ff3030;
+    border-color: #ff3030;
+}
+
+#portfolioModal6 > div > div > div.container > div > div > div > button:hover{
+
+    background: #B10000;
+    border-color: #B10000; 
 }
