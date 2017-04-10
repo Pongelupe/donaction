@@ -10,11 +10,11 @@ function userLogin() {
             if (userType == undefined) {
                 alert("Login realizado com sucesso! Paciente");
                 localStorage.setItem("userData", JSON.stringify(userSession));
-                location.href = ("pages/userPage.php");
+                location.href = ("pages/userPageValidation.php");
             } else {
                 alert("Login realizado com sucesso! Doador");
                 localStorage.setItem("userData", JSON.stringify(userSession));
-                location.href = ("pages/userPage.php")
+                location.href = ("pages/userPageValidation.php")
             }
         }
     })

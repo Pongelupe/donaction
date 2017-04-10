@@ -21,9 +21,9 @@
         <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="userPage.php">
-                        Início
-                        <span class="pull-right hidden-xs showopacity glyphicon glyphicon-home" style="font-size:16px;">
+                    <a href="userPageValidation.php">
+                        Valide seu Voucher
+                        <span class="pull-right hidden-xs showopacity glyphicon glyphicon-tag" style="font-size:16px;">
                         </span>
                     </a>
                 </li>
@@ -37,13 +37,6 @@
                 <li id="donate">
                     <a href="userPageHistory.php">
                         Histórico de Doações
-                        <span class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar" style="font-size:16px;">
-                        </span>
-                    </a>
-                </li>
-                <li id="hospital">
-                    <a href="searchHospitals.php">
-                        Procurar Hospitais
                         <span class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar" style="font-size:16px;">
                         </span>
                     </a>
