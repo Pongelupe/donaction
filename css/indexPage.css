@@ -77,6 +77,10 @@ header {
     color: #B10000;
 }
 
+#bs-example-navbar-collapse-1 > ul > li.active > a{
+     color: #fff !important;
+}
+
 #page-top > header > div > div > button {
 
     background: #ff3030;
@@ -90,12 +94,10 @@ header {
     border-color: #B10000;
 }
 
-
 #bs-example-navbar-collapse-1 > ul > li> a:hover{
 
     color: #ff3030;
 }
-
 .navbar-custom .navbar-nav>.active>a {
 
     background: #ff3030;
