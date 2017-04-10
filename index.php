@@ -102,7 +102,7 @@
                         <i class="glyphicon glyphicon-ok fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Retirar o voucher</h4>
-                    <p class="text-muted">Depois de doar é só pegar o código que o centro de coleta te dará e desfrutar de descontos incríveis!</p>
+                    <p class="text-muted">Depois de doar é só pegar o código que o centro de coleta te dará e seguir os passos aqui embaixo.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -117,7 +117,7 @@
     </section>
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+    <section id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -133,7 +133,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/indexPage/Pucminas.jpg" class="img-responsive" alt="Pucminas">
+                        <img src="img/indexPage/pucminas.jpg" class="img-responsive" alt="Pucminas">
                     </a>
                     <div class="portfolio-caption">
                         <h4>PUC Minas</h4>
@@ -147,7 +147,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/indexPage/Microsoft.jpg" class="img-responsive" alt="Microsoft">
+                        <img src="img/indexPage/microsoft.jpg" class="img-responsive" alt="Microsoft">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Microsoft</h4>
@@ -161,7 +161,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/indexPage/Amazon.jpg"  class="img-responsive" alt="Amazon">
+                        <img src="img/indexPage/amazon.jpg"  class="img-responsive" alt="Amazon">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Amazon</h4>
@@ -175,7 +175,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/indexPage/Leitura.png" class="img-responsive" alt="Leitura">
+                        <img src="img/indexPage/leitura.png" class="img-responsive" alt="Leitura">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Leitura</h4>
@@ -189,7 +189,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/indexPage/Subway.jpg" class="img-responsive" alt="Subway">
+                        <img src="img/indexPage/subway.jpg" class="img-responsive" alt="Subway">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Subway</h4>
@@ -203,7 +203,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/indexPage/Nerdstore.png" class="img-responsive" alt="Nerdstore">
+                        <img src="img/indexPage/nerdstore.png" class="img-responsive" alt="Nerdstore">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Nerdstore</h4>
@@ -230,7 +230,7 @@
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="" alt="">
+                                <img class="img-circle img-responsive" src="img/indexPage/bolinha1.png" alt="B1">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -246,7 +246,7 @@
                         
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/studentBussiness.png" alt="S2B">
+                                <img class="img-circle img-responsive" src="img/indexPage/bolinha2.png" alt="B2">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -262,7 +262,7 @@
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/html5.png" alt="Desenvolvimento Web">
+                                <img class="img-circle img-responsive" src="img/indexPage/bolinha3.png" alt="B3">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -278,7 +278,7 @@
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/bloody_put1.png" alt="Bloody PUT">
+                                <img class="img-circle img-responsive" src="img/indexPage/bolinha4.png" alt="B4">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -294,11 +294,7 @@
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <h4>Não
-                                    <br>esquece
-                                    <br>de voltar!</h4>
-                                    <span class="glyphicon glyphicon-heart fa-3x" style="color:#f48260;">
-                                    </span>
+                                <img class="img-circle img-responsive" src="img/indexPage/bolinha5.png" alt="B4">
                             </div>
                         </li>
                     </ul>
@@ -313,17 +309,17 @@
             <div class="row">
                 <div class="col-md-4 col-sm-6">
                     <a href="#">
-                        <img src="img/logos/microsoft_logo.png" class="img-responsive img-centered" alt="Microsoft">
+                        <img src="img/indexPage/microsoft_logo.png" class="img-responsive img-centered" alt="Microsoft">
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <a href="#">
-                        <img src="img/logos/puc_logo.jpg" class="img-responsive img-centered" alt="PUC Minas">
+                        <img src="img/indexPage/puc_logo.png" class="img-responsive img-centered" alt="PUC Minas">
                     </a>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div id="azure_logo" class="col-md-4 col-sm-6">
                     <a href="#">
-                        <img src="img/logos/azure_logo.png" class="img-responsive img-centered" alt="Azure
+                        <img src="img/indexPage/azure_logo.png" class="img-responsive img-centered" alt="Azure
                         ">
                     </a>
                 </div>
@@ -331,10 +327,10 @@
         </div>
     </aside>
 
-    <footer class="bg-light-gray">
+    <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <span class="copyright">Copyright &copy; Donaction 2017</span>
                 </div>
             </div>
