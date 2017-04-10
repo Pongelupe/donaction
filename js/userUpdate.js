@@ -4,15 +4,6 @@ function userFirstSession() {
     document.getElementById("userAvatar").src = "https://api.adorable.io/avatars/180/" + userData.id + ".png";
     document.getElementById("userName").innerHTML = userData.userName;
     document.getElementById("userBlood").innerHTML = userData.userBlood;
-    var bol = userData.canDonate;
-    if (bol == false || bol == undefined) {
-        document.getElementById("donate").style.display = "none";
-        if (bol == false) {
-            document.getElementById("hospital").style.display = "none";
-        }
-    } else {
-        document.getElementById("hospital").style.display = "none";
-    }
 }
 
 function userSession() {
@@ -22,17 +13,7 @@ function userSession() {
     document.getElementById("userName").innerHTML = userData.userName;
     document.getElementById("userBlood").innerHTML = userData.userBlood;
     document.getElementById("email").value = userData.userEmail;
-    document.getElementById("phone").value = userData.userPhone;
     document.getElementById("city").value = userData.userLocation;
-    var bol = userData.canDonate;
-    if (bol == false || bol == undefined) {
-        document.getElementById("donate").style.display = "none";
-        if (bol == false) {
-            document.getElementById("hospital").style.display = "none";
-        }
-    } else {
-        document.getElementById("hospital").style.display = "none";
-    }
 }
 
 function clearField(inputId) {
@@ -43,13 +24,11 @@ function updateData() {
     event.preventDefault();
     var userData = JSON.parse(localStorage.getItem("userData"));
     var newEmail = document.getElementById("email").value;
-    var newPhone = document.getElementById("phone").value;
     var newLocation = document.getElementById("city").value;
     var sendData = {
         "id": userData.id,
         "userName": userData.userName,
         "userEmail": newEmail,
-        "userPhone": newPhone,
         "userLocation": newLocation,
         "userBlood": userData.userBlood
     };
@@ -72,9 +51,6 @@ function notBlank(inputId) {
     var inputValue = document.getElementById(inputId).value;
     if (inputValue == "" && inputId == "email") {
         document.getElementById(inputId).value = userData.userEmail
-    }
-    if (inputValue == "" && inputId == "phone") {
-        document.getElementById(inputId).value = userData.userPhone
     }
     if (inputValue == "" && inputId == "city") {
         document.getElementById(inputId).value = userData.userLocation

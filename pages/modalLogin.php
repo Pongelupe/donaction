@@ -12,7 +12,7 @@
 		  </form>
 			
 		  <div class="login-help">
-			<a onclick="location.href = 'pages/donatorForm.html';" data-toggle="modal">Cadastrar</a>
+			<a onclick="location.href = 'pages/userPageLogOn.html';" data-toggle="modal">Cadastrar</a>
 		  </div>
 		</div>
 	</div>
