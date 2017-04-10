@@ -1,5 +1,5 @@
 header {
-    background-image: url(../img/indexPage/headerImage.png);
+    background-image: url(../img/indexPage/headerimage.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -9,6 +9,15 @@ header {
     -o-background-size: cover;
     text-align: center;
     color: #fff;
+}
+
+#portfolio{
+    background-color: #f9f9f9;
+
+}
+
+.clients{
+    background-color: #f9f9f9;
 }
 
 .loginmodal-container {
@@ -111,45 +120,135 @@ header {
     border-color: #B10000;   
 }
 
-#portfolio > div > div:nth-child(2) > div:nth-child(1) > a > div:hover{
+#portfolio > div > div:nth-child(2) > div:nth-child(1) > a{
 
-    background: #ff3030;
-    border-color: #ff3030;
-
-}
-
-#portfolio > div > div:nth-child(2) > div:nth-child(2) > a > div:hover{
-
-    background: #ff3030;
-    border-color: #ff3030;
+   -webkit-filter: grayscale(100%);
+   -webkit-transition: .5s ease-in-out;
+   -moz-filter: grayscale(100%); 
+   -moz-transition: .5s ease-in-out;
+   -o-filter: grayscale(100%); 
+   -o-transition: .5s ease-in-out;
 
 }
 
-#portfolio > div > div:nth-child(2) > div:nth-child(3) > a > div:hover{
+#portfolio > div > div:nth-child(2) > div:nth-child(1) > a:hover{
 
-    background: #ff3030;
-    border-color: #ff3030;
-
-}
-
-#portfolio > div > div:nth-child(2) > div:nth-child(4) > a > div:hover{
-
-    background: #ff3030;
-    border-color: #ff3030;
+    -webkit-filter: grayscale(0%);
+   -webkit-transition: .5s ease-in-out;
+   -moz-filter: grayscale(0%); 
+   -moz-transition: .5s ease-in-out;
+   -o-filter: grayscale(0%); 
+   -o-transition: .5s ease-in-out;
 
 }
 
-#portfolio > div > div:nth-child(2) > div:nth-child(5) > a > div:hover{
+#portfolio > div > div:nth-child(2) > div:nth-child(2) > a{
 
-    background: #ff3030;
-    border-color: #ff3030;
+    -webkit-filter: grayscale(100%);
+   -webkit-transition: .5s ease-in-out;
+   -moz-filter: grayscale(100%); 
+   -moz-transition: .5s ease-in-out;
+   -o-filter: grayscale(100%); 
+   -o-transition: .5s ease-in-out;
 
 }
 
-#portfolio > div > div:nth-child(2) > div:nth-child(6) > a > div:hover{
+#portfolio > div > div:nth-child(2) > div:nth-child(2) > a:hover{
 
-    background: #ff3030;
-    border-color: #ff3030;
+    -webkit-filter: grayscale(0%);
+   -webkit-transition: .5s ease-in-out;
+   -moz-filter: grayscale(0%); 
+   -moz-transition: .5s ease-in-out;
+   -o-filter: grayscale(0%); 
+   -o-transition: .5s ease-in-out;
+
+}
+
+#portfolio > div > div:nth-child(2) > div:nth-child(3) > a{
+
+    -webkit-filter: grayscale(100%);
+   -webkit-transition: .5s ease-in-out;
+   -moz-filter: grayscale(100%); 
+   -moz-transition: .5s ease-in-out;
+   -o-filter: grayscale(100%); 
+   -o-transition: .5s ease-in-out;
+
+}
+
+#portfolio > div > div:nth-child(2) > div:nth-child(3) > a:hover{
+
+    -webkit-filter: grayscale(0%);
+   -webkit-transition: .5s ease-in-out;
+   -moz-filter: grayscale(0%); 
+   -moz-transition: .5s ease-in-out;
+   -o-filter: grayscale(0%); 
+   -o-transition: .5s ease-in-out;
+
+}
+
+#portfolio > div > div:nth-child(2) > div:nth-child(4) > a{
+
+    -webkit-filter: grayscale(100%);
+   -webkit-transition: .5s ease-in-out;
+   -moz-filter: grayscale(100%); 
+   -moz-transition: .5s ease-in-out;
+   -o-filter: grayscale(100%); 
+   -o-transition: .5s ease-in-out;
+
+}
+
+#portfolio > div > div:nth-child(2) > div:nth-child(4) > a:hover{
+
+    -webkit-filter: grayscale(0%);
+   -webkit-transition: .5s ease-in-out;
+   -moz-filter: grayscale(0%); 
+   -moz-transition: .5s ease-in-out;
+   -o-filter: grayscale(0%); 
+   -o-transition: .5s ease-in-out;
+
+}
+
+#portfolio > div > div:nth-child(2) > div:nth-child(5) > a{
+
+    -webkit-filter: grayscale(100%);
+   -webkit-transition: .5s ease-in-out;
+   -moz-filter: grayscale(100%); 
+   -moz-transition: .5s ease-in-out;
+   -o-filter: grayscale(100%); 
+   -o-transition: .5s ease-in-out;
+
+}
+
+#portfolio > div > div:nth-child(2) > div:nth-child(5) > a:hover{
+
+    -webkit-filter: grayscale(0%);
+   -webkit-transition: .5s ease-in-out;
+   -moz-filter: grayscale(0%); 
+   -moz-transition: .5s ease-in-out;
+   -o-filter: grayscale(0%); 
+   -o-transition: .5s ease-in-out;
+
+}
+
+#portfolio > div > div:nth-child(2) > div:nth-child(6) > a{
+
+    -webkit-filter: grayscale(100%);
+   -webkit-transition: .5s ease-in-out;
+   -moz-filter: grayscale(100%); 
+   -moz-transition: .5s ease-in-out;
+   -o-filter: grayscale(100%); 
+   -o-transition: .5s ease-in-out;
+
+}
+
+#portfolio > div > div:nth-child(2) > div:nth-child(6) > a:hover{
+
+    -webkit-filter: grayscale(0%);
+   -webkit-transition: .5s ease-in-out;
+   -moz-filter: grayscale(0%); 
+   -moz-transition: .5s ease-in-out;
+   -o-filter: grayscale(0%); 
+   -o-transition: .5s ease-in-out;
 
 }
 
@@ -173,18 +272,6 @@ header {
 #portfolioModal1 > div > div > div.container > div > div > div > ul > li:nth-child(2) > a:hover{
 
     color: #B10000;
-}
-
-#portfolioModal1 > div > div > div.container > div > div > div > button{
-
-    background: #ff3030;
-    border-color: #ff3030;
-}
-
-#portfolioModal1 > div > div > div.container > div > div > div > button:hover{
-
-    background: #B10000;
-    border-color: #B10000; 
 }
 
 #portfolioModal2 > div > div > div.container > div > div > div > ul > li:nth-child(2) > a{
@@ -299,4 +386,8 @@ header {
 
 .timeline>li .timeline-image h4 {
     margin-top: 15px;
+}
+
+#azure_logo {
+    margin-top: 30px;
 }
