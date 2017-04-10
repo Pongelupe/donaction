@@ -4,7 +4,9 @@ function preencherCampos(token) {
         "fields": "id,name,email"
     }, function(response) {
         document.getElementById('name').value = response.name;
+        if (response.email!=undefined) {
         document.getElementById('email').value = response.email;
+        }
     });
 }
 
