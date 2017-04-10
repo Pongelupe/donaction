@@ -20,7 +20,7 @@
                 <div class="row row-centered">
                     <div class="col-lg-12 col-centered">
                         <picture>
-                            <img class="img-circle" height="180" id="userAvatar" src="../img/custom/Woz.png" width="180">
+                            <img class="img-circle" height="180" id="userAvatar" width="180">
                             </img>
                         </picture>
                     </div>

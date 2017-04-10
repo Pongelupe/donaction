@@ -64,7 +64,6 @@ body, html {
 
 .register-form input {
     margin-bottom: 5px;
-    /*width: 430px;*/
     height: 40px;
     border-radius: 0px;
 }
@@ -74,9 +73,7 @@ div.userName {
     color: white;
 }
 
-
 /* centered columns styles */
-
 .row-centered {
     text-align: center;
 }
@@ -93,17 +90,14 @@ body > div > form > div:nth-child(3) > div {
     color: tomato;
 }
 
-.mySelect {
-    margin-bottom: 5px;
-    width: 430px;
-    height: 40px;
-    border-radius: 0px;
-}
-
 #city > option {
     font-size: 1em;
 }
 
-#voucher{
-    margin-top: 50px;
+#city{
+    width: 430px;
+}
+
+#inputCodigo {
+    width: 430px;
 }
