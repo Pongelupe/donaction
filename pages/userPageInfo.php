@@ -51,31 +51,10 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <label for="phone">
-                            TELEFONE
-                        </label>
-                        <input class="form-control" id="phone" name="phone" onclick="clearField(this.id)" onfocusout="notBlank(this.id)" type="text">
-                        </input>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <label for="location">
                             CIDADE
                         </label>
-                        <select class="form-control mySelect" id="city" title="Cidade">
-                            <option>
-                                Belo Horizonte
-                            </option>
-                            <option>
-                                São Paulo
-                            </option>
-                            <option>
-                                Jacksonville Capital
-                            </option>
-                            <option>
-                                Viridiano
-                            </option>
-                        </select>
+                        <input class="form-control" id="city" name="cidade" onclick="clearField(this.id)" onfocusout="notBlank(this.id)" type="text">
+                        </input>
                     </div>
                 </div>
                 <hr>
