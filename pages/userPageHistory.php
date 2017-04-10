@@ -49,9 +49,9 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a data-toggle="tab" href="#rewards" title="Recompensas">
+                                    <a data-toggle="tab" href="#stats" title="Progresso">
                                         <span class="round-tabs four">
-                                            <i class="glyphicon glyphicon-bitcoin">
+                                            <i class="glyphicon glyphicon-stats">
                                             </i>
                                         </span>
                                     </a>
@@ -116,7 +116,7 @@
                                 </div>
                                 </p>
                             </div>
-                            <div class="tab-pane fade" id="rewards">
+                            <div class="tab-pane fade" id="stats">
                                 <h3 class="head text-center">
                                      A <strong>Donaction</strong> valoriza seu altruísmo
                                 </h3>
