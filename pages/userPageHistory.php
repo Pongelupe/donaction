@@ -124,11 +124,7 @@
                                     E para te mostrar isso nós reunimos uma galera que também pensa assim para disponibilizar umas coisas legais a medida que você aparece mais por aqui
                                 </p>
                                 <p class="text-center">
-                                    <a class="btn btn-success btn-outline-rounded green" href="">
-                                        start using bootsnipp
-                                        <span class="glyphicon glyphicon-send" style="margin-left:10px;">
-                                        </span>
-                                    </a>
+                                    <!-- Funcionalidadae aqui -->
                                 </p>
                             </div>
                             <div class="tab-pane fade" id="doner">
