@@ -90,14 +90,49 @@
                                    Essas aqui são as suas doações
                                 </h3>
                                 <p class="narrow text-center">
-                                   Poxa, você ainda não doou :(.. Vai lá, tem alguém precisando muito! Depois é só voltar para receber seu super presente de agradecimento.
-                                </p>
-                                <p class="text-center">
-                                    <a class="btn btn-success btn-outline-rounded green" href="">
-                                        create your profile
-                                        <span class="glyphicon glyphicon-send" style="margin-left:10px;">
-                                        </span>
-                                    </a>
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <!-- <h3 class="panel-title">Filtro:</h3> -->
+                                            <div class="pull-right">
+                                                <span class="clickable filter" data-toggle="tooltip" title="Toggle table filter" data-container="body">
+                                                    <i class="glyphicon glyphicon-filter"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="panel-body">
+                                            <input type="text" class="form-control" id="dev-table-filter" data-action="filter" data-filters="#dev-table" placeholder="Filtrar Campanhas" />
+                                        </div>
+                                        <table class="table table-hover" id="dev-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>#</th>
+                                                    <th>Campanha</th>
+                                                    <th>Realizador</th>
+                                                    <th>Dia</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Um Livro Amigo</td>
+                                                    <td>Leitura</td>
+                                                    <td>12/01/2017</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Esporte é Para Todos</td>
+                                                    <td>Centauro</td>
+                                                    <td>20/02/2017</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>Nerd Também Doa</td>
+                                                    <td>NerdStore</td>
+                                                    <td>05/03/2017</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </p>
                             </div>
                             <div class="tab-pane fade" id="gifts">
@@ -124,7 +159,7 @@
                                     E para te mostrar isso nós reunimos uma galera que também pensa assim para disponibilizar umas coisas legais a medida que você aparece mais por aqui
                                 </p>
                                 <p class="text-center">
-                                    <!-- Funcionalidadae aqui -->
+                                    <!-- Funcionalidade aqui -->
                                 </p>
                             </div>
                             <div class="tab-pane fade" id="doner">

@@ -8,7 +8,8 @@
 .board {
     width: 90%;
     margin: 50px auto;
-    height: 500px;
+    padding-bottom: 50px;
+    height: auto;
     background: rgba(130, 130, 130, 0.3);
     border-radius: 1%;
     /*box-shadow: 10px 10px #ccc,-10px 20px #ddd;*/
@@ -217,7 +218,7 @@ p.narrow.text-center {
 @media( max-width: 1185px) {
     .board {
         width: 90%;
-        height: auto !important;
+        /*height: auto !important;*/
     }
     span.round-tabs {
         font-size: 16px;
@@ -246,9 +247,7 @@ p.narrow.text-center {
 
 /*Thumbnails's CSS*/
 
-.container {
-
-}
+.container {}
 
 img {
     margin: 10px 10px 10px -3px;
@@ -267,6 +266,43 @@ img:hover {
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
 }
 
-#rewards > div {
+#rewards>div {
     display_text: 'center';
+}
+
+
+/*Tabela do Histórico de Doação*/
+.clickable {
+    cursor: pointer;
+}
+
+.panel {
+    margin: 40px 30px 0 30px;
+}
+
+.panel-primary {
+    border-color: tomato !important;
+}
+
+.panel-primary>.panel-heading {
+     background-color: tomato; 
+     border-color: tomato; 
+}
+
+.panel-heading div {
+    margin-top: -18px;
+    font-size: 15px;
+}
+
+.panel-heading div span {
+    margin-left: 5px;
+}
+
+.panel-body {
+    display: none;
+}
+
+#donations > div > div.panel-heading {
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
