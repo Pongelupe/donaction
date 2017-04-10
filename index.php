@@ -75,7 +75,7 @@
                 <div class="intro-heading">Você Pode Salvar Vidas</div>
                 <button type="button" class="btn btn-xl" onclick="location.href = 'pages/donatorForm.html';">Cadastrar</button>
             </div>
-        </div>o
+        </div>
     </header>
 
     <!-- Services Section -->
@@ -331,9 +331,6 @@
         </div>
     </footer>
     
-    <!-- Input's Modal -->
-    <?php include 'pages/inputModal.php';?>
-
     <!-- Partner's Modal-->
     <?php include 'pages/indexModal.php';?>
 
