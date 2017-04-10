@@ -20,6 +20,28 @@
       <form class="register-form">
         <div class="row row-centered">
           <div class="col-lg-12 col-centered">
+            <picture>
+              <img class="img-circle" height="180" id="userAvatar" src="../img/custom/Woz.png" width="180">
+              </img>
+            </picture>
+          </div>
+        </div>
+        <div class="row row-centered">
+          <div class="col-lg-12 col-centered">
+              <div class="userName" id="userName">
+                Usuário
+              </div>
+          </div>
+        </div>
+        <div class="row row-centered">
+          <div class="col-lg-12 col-centered">
+            <div class="userBlood" id="userBlood">
+                Tipo Sanguíneo
+            </div>
+          </div>
+        </div>
+        <div id="voucher" class="row row-centered">
+          <div class="col-lg-12 col-centered">
             <form class="form-inline">
               <label for="date">Data:</label>
               <div class='input-group date' id='dataVoucher'>
