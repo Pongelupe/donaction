@@ -210,5 +210,6 @@
         <script src="../js/userPageSideBar.js"></script>
         <script src="../vendor/sweetalert/js/sweetalert.min.js"></script>
         <script src="../js/userPageHistory.js"></script>
+        <script src="../js/userUpdate.js"></script>
     </body>
 </html>

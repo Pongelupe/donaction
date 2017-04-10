@@ -34,7 +34,7 @@
                         </span>
                     </a>
                 </li>
-                <li id="donate">
+                <li>
                     <a href="userPageHistory.php">
                         Histórico de Doações
                         <span class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar" style="font-size:16px;">
