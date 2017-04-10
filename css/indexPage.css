@@ -296,3 +296,7 @@ header {
     background: #B10000;
     border-color: #B10000; 
 }
+
+.timeline>li .timeline-image h4 {
+    margin-top: 15px;
+}

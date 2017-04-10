@@ -220,8 +220,8 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Como validar seu Voucher:</h2>
-                    <h3 class="section-subheading text-muted"></h3>
-                    <h2 class="section-subheading">Passo 1:</h2>
+                    </br>
+                    </br>
                     </br>
                 </div>
             </div>
@@ -234,11 +234,12 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
+                                    <h2>Passo 1:</h2>
+                                    </br>
                                     <h4>Pegue o voucher</h4>
-                                    <h5 class="subheading">e olhe na parte de baixo dele</h5>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">o código estará aí.</p>
+                                    <p class="text-muted">e olhe na parte de baixo dele </br> o código estará aí.</p>
                                 </div>
                             </div>
                         </li>
@@ -249,11 +250,13 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>Outubro</h4>
-                                    <h5 class="subheading">Introdução ao S2B</h5>
+                                    <h2>Passo 2:</h2>
+                                    </br>
+                                    <h4>Entre no site</h4>
+                                    <h5 class="subheading"></h5>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Continua em 27 de outubro com a apresentação do programa <strong>Student to Bussiness</strong> e suas oportunidades.</p>
+                                    <p class="text-muted">e digite o código do voucher nos campos indicados e pressione "Validar!"</p>
                                 </div>
                             </div>
                         </li>
@@ -263,11 +266,13 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>Novembro</h4>
-                                    <h5 class="subheading">Trilha de desenvolvimento Web</h5>
+                                    <h2>Passo 3:</h2>
+                                    </br>
+                                    <h4>agora você pode compartilhar a sua doação!</h4>
+                                    <h5 class="subheading">Você será levado para </br> o seu perfil no Facebook </h5>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Foram ministradas aulas de HTML 5, CSS e JavaScript pelo professor Guilherme Rodrigues.</p>
+                                    <p class="text-muted">não se preocupe! caso você não queira </br> publicar no seu perfil não publicaremos!</p>
                                 </div>
                             </div>
                         </li>
@@ -277,19 +282,23 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>14/novembro à 26/novembro</h4>
-                                    <h5 class="subheading">Desenvolvimento do projeto</h5>
+                                    <h2>Passo 4:</h2>
+                                    </br>
+                                    <h4>Pronto!</h4>
+                                    <h5 class="subheading">agora você está pronto para desfrutar dos nossos presentes incríveis!</h5>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted"> O projeto Bloody PUT foi desenvolvido utilizando a API do <strong>Myjson</strong>, HTML 5, CSS e Java Script em conjunto com os frameworks Bootstrap e Sweet Alert.</p>
+                                    <p class="text-muted">Um muito obrigado da equipe Donaction por fazer parte desta corrente do bem!</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <h4>Agora
-                                    <br>é com
-                                    <br>vocês...</h4>
+                                <h4>Não
+                                    <br>esquece
+                                    <br>de voltar!</h4>
+                                    <span class="glyphicon glyphicon-heart fa-3x" style="color:#f48260;">
+                                    </span>
                             </div>
                         </li>
                     </ul>
