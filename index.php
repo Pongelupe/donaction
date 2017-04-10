@@ -54,7 +54,7 @@
                         <a class="page-scroll" href="#portfolio">Parceiros</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">Como validar seu Voucher</a>
+                        <a class="page-scroll" href="#about">Valide seu Voucher</a>
                     </li>
                     <li>
                         <!-- Include of the modal -->
@@ -221,7 +221,7 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Como validar seu Voucher:</h2>
                     <h3 class="section-subheading text-muted"></h3>
-                    <h2 class="section-subheading">2016</h2>
+                    <h2 class="section-subheading">Passo 1:</h2>
                     </br>
                 </div>
             </div>
@@ -230,18 +230,19 @@
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/stackOverflow.png" alt="Engenharia de Software">
+                                <img class="img-circle img-responsive" src="" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>Agosto</h4>
-                                    <h5 class="subheading">Engenharia de Software</h5>
+                                    <h4>Pegue o voucher</h4>
+                                    <h5 class="subheading">e olhe na parte de baixo dele</h5>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">A jornada começa na graduação da PUC Minas.</p>
+                                    <p class="text-muted">o código estará aí.</p>
                                 </div>
                             </div>
                         </li>
+                        
                         <li class="timeline-inverted">
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/about/studentBussiness.png" alt="S2B">
