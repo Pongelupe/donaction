@@ -14,6 +14,8 @@
         <link rel="stylesheet" type="text/css" href="../vendor/sweetalert/css/sweetalert.css">
     </head>
     <body onload="userFirstSession()">
+        <!-- Google Analytics -->
+        <?php include_once("analyticstracking.php") ?>
         <!-- Include of the navBar -->
         <?php include 'userPageSideBar.php';?>
         <div class="container-fluid">

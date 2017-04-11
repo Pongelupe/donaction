@@ -29,7 +29,9 @@
 
 </head>
 
-<body id="page-top" class="index">
+<body id="page-top" class="index">]
+    <!-- Google Analytics -->
+    <?php include_once("analyticstracking.php") ?>
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container">

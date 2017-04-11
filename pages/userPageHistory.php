@@ -14,6 +14,8 @@
         <link href="../css/userPageHistory.css" rel="stylesheet"/>
     </head>
     <body onload="userSession()">
+        <!-- Google Analytics -->
+        <?php include_once("analyticstracking.php") ?>
         <!-- Include of the navBar -->
         <?php include 'userPageSideBar.php';?>
         <section style="background:#efefe9;">

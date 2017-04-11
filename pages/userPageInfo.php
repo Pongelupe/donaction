@@ -13,6 +13,8 @@
         <link href="../vendor/sweetalert/css/sweetalert.css" rel="stylesheet" type="text/css"/>
     </head>
     <body onload="userSession()">
+        <!-- Google Analytics -->
+        <?php include_once("analyticstracking.php") ?>
         <!-- Include of the navBar -->
         <?php include 'userPageSideBar.php';?>
         <div class="container-fluid">
