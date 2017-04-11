@@ -29,7 +29,7 @@
 
 </head>
 
-<body id="page-top" class="index">]
+<body id="page-top" class="index">
     <!-- Google Analytics -->
     <?php include_once("analyticstracking.php") ?>
     <!-- Navigation -->
